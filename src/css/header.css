@@ -1,0 +1,57 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+} 
+
+.navbar { 
+	display: flex; 
+    justify-content: space-between;
+    height: 160px;
+} 
+
+.right-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.App-logo { 
+    height: 90px;
+    align-self: flex-end;
+    padding: 20px; 
+} 
+
+.nav-list { 
+    display: flex;
+    padding: 10px 10px; 
+} 
+
+.title { 
+    padding: 20px;
+    font-size: 35px;
+    font-family: 'Italic';
+    font-weight: 100;
+} 
+
+.background { 
+	background-color: #D6C5C1;
+} 
+
+.nav-list li { 
+	list-style: none; 
+    padding: 10px;
+    font-family: 'Medium';
+    font-size: 35px;
+} 
+
+.nav-list li a { 
+	text-decoration: none; 
+	color: #000; 
+} 
+
+.nav-list li a:hover { 
+	color: grey; 
+} 
+
+
