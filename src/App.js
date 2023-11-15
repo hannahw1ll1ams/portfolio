@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Header from './Components/Header';
 
@@ -16,6 +15,31 @@ function App() {
       <header className="App-header">
           <Header/>
       </header>
+      
+      <div class="container">
+        <div class="illustrations">
+          <p>illustrations</p>
+        </div>
+        <div class="event-posters">
+          <p>event-posters</p>
+        </div>
+        <div class="app-designs">
+          <p>app-designs</p>
+        </div>
+        <div class="lds-logos">
+          <p>lds-logos</p>
+        </div>
+        <div class="strategic-plan">
+          <p>strategic-plan</p>
+        </div>
+        <div class="salsa-as-political-speech">
+         <p>salsa-as-political-speechs</p>
+        </div>
+        <div class="omni-channel-infographic">
+          <p>omni-channel-infographic</p>
+        </div>
+      </div>
+      
     </div>
   );
 }

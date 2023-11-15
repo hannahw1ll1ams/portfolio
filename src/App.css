@@ -6,3 +6,50 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "illustrations event-posters lds-logos"
+    "illustrations app-designs strategic-plan"
+    "omni-channel-infographic salsa-as-political-speech strategic-plan";
+    height: 1085px;
+  }
+
+.illustrations { 
+  grid-area: illustrations; 
+  background-color: #c1d1d6;
+}
+
+.event-posters { 
+  grid-area: event-posters; 
+  background-color: #c1c4d6;
+}
+
+.app-designs { 
+  grid-area: app-designs; 
+  background-color: #c2d6c1;
+}
+
+.lds-logos { 
+  grid-area: lds-logos; 
+  background-color: #d6c1ca;
+}
+
+.strategic-plan { 
+  grid-area: strategic-plan; 
+  background-color: #d6c8c1;
+}
+
+.salsa-as-political-speech { 
+  grid-area: salsa-as-political-speech; 
+  background-color: #c1d5d6;
+}
+
+.omni-channel-infographic { 
+  grid-area: omni-channel-infographic; 
+  background-color: #d6c1d6;
+}

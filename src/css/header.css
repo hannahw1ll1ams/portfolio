@@ -1,6 +1,7 @@
 * { 
 	margin: 0; 
 	padding: 0; 
+    
 } 
 
 .navbar { 
@@ -24,12 +25,12 @@
 
 .nav-list { 
     display: flex;
-    padding: 10px 10px; 
+    padding: 15px 20px; 
 } 
 
 .title { 
-    padding: 20px;
-    font-size: 35px;
+    padding: 30px;
+    font-size: 25px;
     font-family: 'Italic';
     font-weight: 100;
 } 
@@ -42,7 +43,7 @@
 	list-style: none; 
     padding: 10px;
     font-family: 'Medium';
-    font-size: 35px;
+    font-size: 25px;
 } 
 
 .nav-list li a { 
