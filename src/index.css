@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: "Black";
+  src: local("Inter-Black"),
+    url("./fonts/Inter-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bold";
+  src: local("Inter-Bold"),
+    url("./fonts/Inter-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Italic";
+  src: local("Inter-italic"),
+    url("./fonts/Inter-italic.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: local("Inter-Medium"),
+    url("./fonts/Inter-Medium.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Regular";
+  src: local("Inter-Regular"),
+    url("./fonts/Inter-Regular.woff") format("woff");
+}
+
+
+
