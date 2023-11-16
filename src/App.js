@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 //fonts
 import './fonts/Inter-Black.woff'
@@ -39,6 +40,10 @@ function App() {
           <p>omni-channel-infographic</p>
         </div>
       </div>
+
+      <footer className="App-footer">
+          <Footer />
+      </footer>
       
     </div>
   );
