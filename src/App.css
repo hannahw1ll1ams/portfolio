@@ -21,35 +21,35 @@
 
 .illustrations { 
   grid-area: illustrations; 
-  background-color: #c1d1d6;
+  background-color: #FFFFFF;
 }
 
 .event-posters { 
   grid-area: event-posters; 
-  background-color: #c1c4d6;
+  background-color: #E3D6A5;
 }
 
 .app-designs { 
   grid-area: app-designs; 
-  background-color: #c2d6c1;
+  background-color: #CBDBCF;
 }
 
 .lds-logos { 
   grid-area: lds-logos; 
-  background-color: #d6c1ca;
+  background-color: #BCCBD0;
 }
 
 .strategic-plan { 
   grid-area: strategic-plan; 
-  background-color: #d6c8c1;
+  background-color: #EDF3FB;
 }
 
 .salsa-as-political-speech { 
   grid-area: salsa-as-political-speech; 
-  background-color: #c1d5d6;
+  background-color: #ECE2DD;
 }
 
 .omni-channel-infographic { 
   grid-area: omni-channel-infographic; 
-  background-color: #d6c1d6;
+  background-color: #ECEFF8;
 }
