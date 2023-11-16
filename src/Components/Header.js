@@ -3,15 +3,30 @@ import '../css/header.css';
 
 import logo from '../images/logo.PNG'
 
-export default function Header () {
+export default function Header() {
 
-  const [isSelected, setIsSelected] = useState([false, true, false]);
+  const [isPageSelected, setIsPageSelected] = useState([false, true, false]);
 
   const handleOnClick = (pageSelected) => {
-    pageSelected === 0 ? setIsSelected([true, false, false]) :
-    pageSelected === 1 ? setIsSelected([false, true, false]) :
-    setIsSelected([false, false, true])
+    pageSelected === 0 ? setIsPageSelected([true, false, false]) :
+    pageSelected === 1 ? setIsPageSelected([false, true, false]) :
+    setIsPageSelected([false, false, true])
   };
+
+  const pages = [{
+    name: "ABOUT",
+    id: 0
+  }, {
+    name: "PORTFOLIO",
+    id: 1
+  }, {
+    name: "CONTACT",
+    id: 2
+  }];
+
+  const listItems = pages.map(page =>
+    <li><button className={`${isPageSelected[page.id] ? "selected" : ""}`} onClick={() => handleOnClick(page.id)}>{page.name}</button></li>
+  );
 
 	return ( 
 		<div> 
@@ -19,11 +34,7 @@ export default function Header () {
           <img className="App-logo" src= {logo} alt='logo'/> 
            <div className="right-nav">
             <ul class="nav-list"> 
-              <li><button className={`${isSelected[0] ? "selected" : ""}`} onClick={() => handleOnClick(0)}>ABOUT</button></li>
-              <li>/</li> 
-              <li><button className={`${isSelected[1] ? "selected" : ""}`} onClick={() => handleOnClick(1)}>PORTFOLIO</button></li>
-              <li>/</li> 
-              <li><button className={`${isSelected[2] ? "selected" : ""}`} onClick={() => handleOnClick(2)}>CONTACT</button></li>
+              {listItems}
             </ul> 
             <p className="title">developer / designer</p>
           </div> 
