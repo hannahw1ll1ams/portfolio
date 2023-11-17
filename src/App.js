@@ -5,10 +5,11 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
-import PortfolioPage from './Pages/PortfolioPage';
 import ContactPage from './Pages/ContactPage';
 import AboutPage from './Pages/AboutPage';
-import IllustrationsPage from './Pages/Illustrations'
+import PortfolioPage from './Pages/PortfolioPage';
+import IllustrationsPage from './Pages/Sub-pages/Illustrations'
+import EventPostersPage from "./Pages/Sub-pages/Event-posters"
 
 //fonts
 import './fonts/Inter-Black.woff'
@@ -18,7 +19,6 @@ import './fonts/Inter-Medium.woff2'
 import './fonts/Inter-Regular.woff'
 
 function App() {
-
   return (
       <div className="App">
         <header className="App-header">
@@ -27,8 +27,13 @@ function App() {
         
         <Routes>
           <Route path="/about" exact element={<AboutPage />} />
-          <Route path="/portfolio" exact element={<PortfolioPage />} />
-          <Route path="/portfolio/illustrations" exact element={<IllustrationsPage />} />
+          
+          <Route path='/portfolio'>
+            <Route index element={ <PortfolioPage /> }/>
+            <Route path='/portfolio/illustrations' element={ <IllustrationsPage /> }/>
+            <Route path="/portfolio/eventposters" exact element={<EventPostersPage />} />
+         </Route>
+          
           <Route path="/contact" exact element={<ContactPage />} />
         </Routes>
         

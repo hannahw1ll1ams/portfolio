@@ -25,7 +25,6 @@ export default function Header() {
             <Link to='/portfolio'><li><button className={`${isPageSelected[1] ? "selected" : ""}`} onClick={() => handleOnClick(1)}>PORTFOLIO</button></li></Link>
             <li><p>/</p></li>
             <Link to='/contact'><li><button className={`${isPageSelected[2] ? "selected" : ""}`} onClick={() => handleOnClick(2)}>CONTACT</button></li></Link>
-            <li><p>/</p></li>
             </ul> 
             <p className="title">developer / designer</p>
           </div> 
