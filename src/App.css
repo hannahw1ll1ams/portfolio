@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -7,6 +8,6 @@
   pointer-events: none;
 }
 
-/* * {
+body {
   background-color: #D6C5C1;
-} */
+}

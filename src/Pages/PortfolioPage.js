@@ -55,10 +55,7 @@ export default function PortfolioPage() {
           {/* <img className="responsive" src= {workers} alt='logo'/>  */}
           <p>omni-channel-infographic</p>
         </div>
-
+        
       </div>
     );
-
-
-
 }

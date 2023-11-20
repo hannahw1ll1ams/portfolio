@@ -1,4 +1,14 @@
+.outerContainer {
+    height: 600px;
+    /* padding: 100%; */
+}
+
 .contactContainer {
     background: #B6B8AB;
-    height: 100VH;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
 }
+

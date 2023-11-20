@@ -45,7 +45,7 @@ button {
 	list-style: none; 
     padding: 10px;
     font-family: 'Medium';
-    font-size: 25px;
+    font-size: 22px;
 } 
 
 .nav-list li a { 
@@ -67,7 +67,7 @@ button {
 
 .title { 
     padding: 30px;
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Italic';
     font-weight: 100;
 } 
