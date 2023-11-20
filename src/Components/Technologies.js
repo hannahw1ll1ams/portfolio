@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/aboutPage.css'
-import csharp from '../images/technologyIcons/c#.png'
+import csharp from '../images/technologyIcons/csharp.png'
 import figma from '../images/technologyIcons/figma.png'
 import illustrator from '../images/technologyIcons/illustrator.png'
 import indesign from '../images/technologyIcons/indesign.png'

@@ -1,14 +1,5 @@
 import React from "react";
 import '../css/aboutPage.css'
-import csharp from '../images/technologyIcons/c#.png'
-import figma from '../images/technologyIcons/figma.png'
-import illustrator from '../images/technologyIcons/illustrator.png'
-import indesign from '../images/technologyIcons/indesign.png'
-import javascript from '../images/technologyIcons/javascript.png'
-import procreate from '../images/technologyIcons/procreate.png'
-import react from '../images/technologyIcons/react.png'
-import swift from '../images/technologyIcons/swift.png'
-import swiftUI from '../images/technologyIcons/swiftui.png'
 import profileImage from '../images/profilePicture.png'
 import TechnologiesComponent from "../Components/Technologies";
 
@@ -19,8 +10,8 @@ export default function AboutPage() {
         <div>
             <div className="aboutMe-container">
                 <div className="titles">
-                    <h1>Hannah Williams</h1>
-                    <h1>London, UK</h1>
+                    <h1>HANNAH WILLIAMS</h1>
+                    <h1>LONDON, UK</h1>
                 </div>
                 <div className="aboutMe-information">
                     <img className="profile-image" src= {profileImage} alt='procprofileImagereatswifteIcon'/>
