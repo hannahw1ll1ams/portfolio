@@ -10,6 +10,7 @@ import AboutPage from './Pages/AboutPage';
 import PortfolioPage from './Pages/PortfolioPage';
 import IllustrationsPage from './Pages/Sub-pages/Illustrations'
 import EventPostersPage from "./Pages/Sub-pages/Event-posters"
+import ErrorPage from './Pages/ErrorPage';
 
 //fonts
 import './fonts/Inter-Black.woff'
@@ -37,6 +38,7 @@ function App() {
          </Route>
           
           <Route path="/contact" exact element={<ContactPage />} />
+          <Route path="/*" exact element={<ErrorPage />} />
         </Routes>
         
         <footer className="App-footer">
