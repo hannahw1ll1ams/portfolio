@@ -27,7 +27,9 @@ function App() {
         
         <Routes>
           <Route path="/about" exact element={<AboutPage />} />
-          
+
+          <Route path="/" exact element={<PortfolioPage />} />
+
           <Route path='/portfolio'>
             <Route index element={ <PortfolioPage /> }/>
             <Route path='/portfolio/illustrations' element={ <IllustrationsPage /> }/>

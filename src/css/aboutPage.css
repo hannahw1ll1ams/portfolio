@@ -1,0 +1,17 @@
+.aboutMe-container {
+    background-color: #B6B8AB;
+    padding: 30px;
+}
+
+h2 {
+    color: white;
+}
+
+.aboutMeInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 100vh;
+    text-align: start;
+}

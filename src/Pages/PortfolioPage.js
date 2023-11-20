@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../css/header.css';
+import '../css/portfolioPage.css'
 
 //images
 import workers from '../images/illustrations/seaViewWorkers.jpg'

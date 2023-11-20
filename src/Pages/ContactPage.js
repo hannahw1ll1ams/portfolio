@@ -1,8 +1,11 @@
 import React from "react";
+import '../css/contactPage.css'
 
 export default function IllustrationsPageContactPage() {
     return (
-       <p>Contact Page</p>
+        <div className='contactContainer'>
+        </div>
+      
     );
 }
 
