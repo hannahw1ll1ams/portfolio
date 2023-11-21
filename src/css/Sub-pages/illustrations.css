@@ -1,0 +1,52 @@
+.topText {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 80px 30px;
+    /* background-color: #fd1414; */
+}
+.bottomText {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 30px 30px;
+    /* background-color: #14fd46; */
+
+}
+.imageKeyWords {
+    font-size: 22px;
+    font-family: 'Italic';
+    font-weight: 100;
+}
+
+.whiteContainer {
+    background-color: white;
+}
+.singleImage {
+    height: 700px;
+}
+
+.procrastinationContainer {
+    background-color: #EFEAEA;
+}
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+.procrastination {
+    height: 700px;  
+    padding: 0px 40px;
+}
+
+.portugalContainer{
+    display: flex;
+    justify-content: center;
+}
+.twoRunnersContainer {
+    background-color: #FFE4E5;
+    width: 50%;
+}
+.inesContainer {
+    background-color: #CDABAB;
+    width: 50%;
+}
