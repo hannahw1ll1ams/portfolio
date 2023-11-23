@@ -23,33 +23,32 @@ export default function PortfolioPage() {
         </div>
 
         <div class="event-posters">
-           <img className="event responsive" src= {eventPosters} alt='eventPosters'/> 
-           {/* <img className="event responsive" src= {springBall} alt='springBall'/>  */}
+           <img className="event responsive padding" src= {eventPosters} alt='eventPosters'/> 
           {/* <p>event-posters</p> */}
         </div>
 
         <div class="app-designs">
-           <img className="responsive" src= {appLogos} alt='appLogos'/> 
+           <img className="responsive padding" src= {appLogos} alt='appLogos'/> 
           {/* <p>app-designs</p> */}
         </div>
 
         <div class="lds-logos">
-           <img className="responsive" src= {ldsTshirtLogos} alt='ldsTshirtLogos'/> 
+           <img className="responsive padding" src= {ldsTshirtLogos} alt='ldsTshirtLogos'/> 
           {/* <p>lds-logos</p> */}
         </div>
 
         <div class="strategic-plan">
-           {/* <img className="responsive" src= {workers} alt='logo'/>  */}
-          <p>strategic-plan</p>
+           <img className="smallerImage padding" src= {strategicPlan} alt='strategicPlan'/> 
+          {/* <p>strategic-plan</p> */}
         </div>
 
         <div class="salsa-as-political-speech">
-          {/* <img className="responsive" src= {workers} alt='logo'/>  */}
-         <p>salsa-as-political-speechs</p>
+          <img className="responsive padding" src= {salsaGraphic} alt='salsaGraphic'/> 
+         {/* <p>salsa-as-political-speechs</p> */}
         </div>
 
         <div class="omni-channel-infographic">
-          <img className="omnichannel responsive" src= {universalBasket} alt='universalBasket'/> 
+          <img className="responsive padding" src= {universalBasket} alt='universalBasket'/> 
           {/* <p>omni-channel-infographic</p> */}
         </div>
         
