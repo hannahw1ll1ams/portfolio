@@ -7,7 +7,7 @@ export default function Footer () {
 
 	return ( 
 		<div class="footer background"> 
-            <p className="text" >LET'S CONNECT</p>
+		<a href='/contact'><p className="text" >LET'S CONNECT</p></a>
 		</div> 
 	) 
 } 
