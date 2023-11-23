@@ -1,5 +1,6 @@
 .aboutMe-container {
-    background-color: #b3c83b;
+    /* background-color: #b3c83b; */
+    background-color: #EBEAE4;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -21,18 +22,19 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    color: rgb(115, 116, 116);
+    /* color: rgb(115, 116, 116); */
+    color: black;
 }
 
 .aboutMe-information {
     /* background-color: #2c1fc0; */
     display: flex;
-    /* width: 50%; */
+    width: 70%;
     justify-content: center;
     padding: 100px;
     /* flex-wrap: wrap; */
     /* margin: 200px; */
-    height: 300px;
+    /* height: 300px; */
 }
 
 .info {
@@ -41,7 +43,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #5a51b6;
+    /* background-color: #5a51b6; */
+    background-color: #C8C6BF;
 }
 
 .profile-image {

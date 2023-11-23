@@ -25,16 +25,19 @@
   .illustrations { 
     grid-area: illustrations; 
     background-color: #FFFFFF;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
-    position:relative;
-    z-index:0;
+    align-items: center;
+    /* position:relative;
+    z-index:0; */
     }
   
-  .workers {
-    
-    background-color: #FFFFFF;
+  .event-posters {
+    grid-area: event-posters; 
+    /* background-color: #FFFFFF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .responsive {
@@ -50,9 +53,7 @@
   .event-posters { 
     grid-area: event-posters; 
     background-color: #E3D6A5;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
   }
   
   .app-designs { 
@@ -93,6 +94,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .omnichannel {
+    padding: 20px;
   }
   
   

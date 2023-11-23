@@ -5,14 +5,11 @@ import '../css/portfolioPage.css'
 
 //images
 import workers from '../images/illustrations/seaViewWorkers.jpg'
-import requestsLogo from '../images/appDesign/requestsAppLogo.png'
-import selfServeLogo from '../images/appDesign/selfServeLogo.png'
+import appLogos from '../images/appDesign/app-logos-03.png'
 import salsaGraphic from '../images/infographic/salsaAsPoliticalSpeech.png'
-import universalBasket from '../images/infographic/universalBasket.png'
-import rowingDinner from '../images/rowing/anniversaryBall.png'
-import springBall from '../images/rowing/springBall.png'
-import frontLogo from '../images/rowing/ldsLogoBack.png'
-import backLogo from '../images/rowing/ldsLogoFront.png'
+import universalBasket from '../images/infographic/omnichannel-06.png'
+import eventPosters from '../images/rowing/event-posters-together-01.png'
+import ldsTshirtLogos from '../images/rowing/lds-tshirts-together-02.png'
 import strategicPlan from '../images/rowing/strategicPlan3.PNG'
 
 export default function PortfolioPage() {
@@ -26,19 +23,19 @@ export default function PortfolioPage() {
         </div>
 
         <div class="event-posters">
-           {/* <img className="event responsive" src= {rowingDinner} alt='rowingDinner'/>  */}
+           <img className="event responsive" src= {eventPosters} alt='eventPosters'/> 
            {/* <img className="event responsive" src= {springBall} alt='springBall'/>  */}
           {/* <p>event-posters</p> */}
         </div>
 
         <div class="app-designs">
-           {/* <img className="responsive" src= {workers} alt='logo'/>  */}
+           <img className="responsive" src= {appLogos} alt='appLogos'/> 
           {/* <p>app-designs</p> */}
         </div>
 
         <div class="lds-logos">
-           {/* <img className="responsive" src= {workers} alt='logo'/>  */}
-          <p>lds-logos</p>
+           <img className="responsive" src= {ldsTshirtLogos} alt='ldsTshirtLogos'/> 
+          {/* <p>lds-logos</p> */}
         </div>
 
         <div class="strategic-plan">
@@ -52,8 +49,8 @@ export default function PortfolioPage() {
         </div>
 
         <div class="omni-channel-infographic">
-          {/* <img className="responsive" src= {workers} alt='logo'/>  */}
-          <p>omni-channel-infographic</p>
+          <img className="omnichannel responsive" src= {universalBasket} alt='universalBasket'/> 
+          {/* <p>omni-channel-infographic</p> */}
         </div>
         
       </div>
