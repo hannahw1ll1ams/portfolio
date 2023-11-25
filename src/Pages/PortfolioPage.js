@@ -57,7 +57,7 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap strategic-plan">
-            <Link to='strategicPlan'>
+            <Link to='strategicplan'>
               <img className="smallerImage responsive img__img padding" src= {strategicPlan} alt='strategicPlan'/>
               <div class="img__description_layer">
                 <p class="img__description">STRATEGIC PLAN</p>
