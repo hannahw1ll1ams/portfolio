@@ -8,9 +8,8 @@
     display: flex;
     justify-content: space-between;
     padding: 80px 30px 30px 30px;
-    /* background-color: #14fd46; */
-
 }
+
 .imageKeyWords {
     font-size: 22px;
     font-family: 'Italic';

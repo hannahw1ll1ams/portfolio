@@ -19,7 +19,6 @@
 .event-posters { 
   grid-area: event-posters; 
   background-color: #E3D6A5;
-
 }
 .app-designs { 
   grid-area: app-designs; 
@@ -60,7 +59,6 @@
 /* styles for image */
 .responsive {
   width: 80%;
-  /* height: auto; */
 }
 .smallerImage {
   width: 70%;
@@ -72,7 +70,6 @@
 /* styles for text over image */
 .img__wrap {
   position: relative;
-  /* display: inline-block; */
   display: flex;
   align-items: center;
 }
@@ -88,9 +85,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(229, 229, 231, 0.6);
+  background: rgba(132, 132, 133, 0.6);
+  color: white;
   font-family: 'Medium';
-  font-size: 25px;
+  font-size: 20px;
   visibility: hidden;
   opacity: 0;
   display: flex;
