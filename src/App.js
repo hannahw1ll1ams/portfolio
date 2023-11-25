@@ -50,7 +50,7 @@ function App() {
          </Route>
           
           <Route path="/contact" exact element={<ContactPage />} />
-          {/* <Route path="/*" exact element={<ErrorPage />} /> */}
+          <Route path="/*" exact element={<ErrorPage />} />
         </Routes>
         
         <footer className="App-footer">
