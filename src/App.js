@@ -44,13 +44,13 @@ function App() {
             <Route path='/portfolio/eventposters' element={<EventPostersPage />} />
             <Route path='/portfolio/appdesign' element={<AppDesignsPage />} />
             <Route path='/portfolio/tshirtlogo' element={<TshirtDesignPage />} />
-            <Route path='/portfolio/strategicPlan' element={<StrategicPlanPage />} />
+            <Route path='/portfolio/strategicplan' element={<StrategicPlanPage />} />
             <Route path='/portfolio/salsapoliticalspeech' element={<SalsaAsPoliticalSpeechPage />} />
             <Route path='/portfolio/omnichannel' element={<OmnichannelInfographicPage />} />
          </Route>
           
           <Route path="/contact" exact element={<ContactPage />} />
-          <Route path="/*" exact element={<ErrorPage />} />
+          {/* <Route path="/*" exact element={<ErrorPage />} /> */}
         </Routes>
         
         <footer className="App-footer">
