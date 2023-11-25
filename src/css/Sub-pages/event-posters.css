@@ -1,0 +1,29 @@
+.topText {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 80px 30px;
+}
+
+.bottomText {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 30px 30px;
+}
+
+.imageKeyWords {
+    font-size: 22px;
+    font-family: 'Italic';
+    font-weight: 100;
+}
+
+.anniversaryBallContainer {
+    background-color: #E3D6A5;
+}
+
+.springBallContainer {
+    background-color: #E4E7ED;
+}
+
+.singleImageWidth {
+    width: 60%;
+}

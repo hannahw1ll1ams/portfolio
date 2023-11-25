@@ -1,0 +1,13 @@
+.appDesignContainer {
+    background-color: #EFEAEA;
+}
+.logoImageContainer {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.appLogoDesign {
+    height: 500px;  
+    padding: 0px 40px;
+}

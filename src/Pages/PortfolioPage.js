@@ -19,49 +19,69 @@ export default function PortfolioPage() {
 
     return (
         <div class="container">
-        
-        {/* <div class="illustrations"> */}
-          {/* <Link to='illustrations'><img className="workers responsive" src= {workers} alt='logo'/></Link>
-          <p className="workers-text">illustrations</p> */}
-          
-        {/* </div> */}
-
-        <div class="illustrations">
-        <Link to='illustrations'><img className="responsive hover" src= {workers} alt='two people working'/></Link>
-          <div class="text">
-          <p className="workers-text">illustrations</p>
+      
+          <div class="img__wrap illustrations">
+            <Link to='illustrations'>
+              <img className="responsive img__img padding" src= {workers} alt='two people working'/>
+              <div class="img__description_layer">
+                <p class="img__description">LIVE SKETCH</p>
+              </div> 
+            </Link>
           </div>
-        </div>
 
-        <div class="event-posters">
-           <img className="event responsive padding" src= {eventPosters} alt='eventPosters'/> 
-          {/* <p>event-posters</p> */}
-        </div>
+          <div class="img__wrap event-posters">
+            <Link to='eventposters'>
+              <img className="responsive img__img padding" src= {eventPosters} alt='eventPosters'/>
+              <div class="img__description_layer">
+                <p class="img__description">POSTERS</p>
+              </div>
+            </Link>
+          </div>
 
-        <div class="app-designs">
-           <img className="responsive padding" src= {appLogos} alt='appLogos'/> 
-          {/* <p>app-designs</p> */}
-        </div>
+          <div class="img__wrap app-designs">
+            <Link to='appdesign'>
+              <img className="responsive img__img padding" src= {appLogos} alt='appLogos'/>
+              <div class="img__description_layer">
+                <p class="img__description">APP DESIGN</p>
+              </div>
+            </Link>
+          </div>
 
-        <div class="lds-logos">
-           <img className="responsive padding" src= {ldsTshirtLogos} alt='ldsTshirtLogos'/> 
-          {/* <p>lds-logos</p> */}
-        </div>
+          <div class="img__wrap lds-logos">
+            <Link to='tshirtlogo'>
+              <img className="responsive img__img padding" src= {ldsTshirtLogos} alt='ldsTshirtLogos'/>
+              <div class="img__description_layer">
+                <p class="img__description">T-SHIRT DESIGN</p>
+              </div>
+            </Link>
+          </div>
 
-        <div class="strategic-plan">
-           <img className="smallerImage padding" src= {strategicPlan} alt='strategicPlan'/> 
-          {/* <p>strategic-plan</p> */}
-        </div>
+          <div class="img__wrap strategic-plan">
+            <Link to='strategicPlan'>
+              <img className="smallerImage responsive img__img padding" src= {strategicPlan} alt='strategicPlan'/>
+              <div class="img__description_layer">
+                <p class="img__description">STRATEGIC PLAN</p>
+              </div>
+            </Link>
+          </div>
 
-        <div class="salsa-as-political-speech">
-          <img className="responsive padding" src= {salsaGraphic} alt='salsaGraphic'/> 
-         {/* <p>salsa-as-political-speechs</p> */}
-        </div>
+          <div class="img__wrap salsa-as-political-speech">
+            <Link to='salsapoliticalspeech'>
+              <img className="responsive img__img padding" src= {salsaGraphic} alt='salsaGraphic'/>
+              <div class="img__description_layer">
+                <p class="img__description">SALSA AS POLITICAL SPEECH <br /> INFOGRAPHIC</p>
+              </div>
+            </Link>
+          </div>
 
-        <div class="omni-channel-infographic">
-          <img className="responsive padding" src= {universalBasket} alt='universalBasket'/> 
-          {/* <p>omni-channel-infographic</p> */}
-        </div>
+          <div class="img__wrap omni-channel-infographic">
+            <Link to='omnichannel'>
+              <img className="responsive img__img padding" src= {universalBasket} alt='universalBasket'/>
+              <div class="img__description_layer">
+                <p class="img__description">OMNI-CHANNEL VISION</p>
+              </div>
+            </Link>
+          </div>
         
       </div>
     );

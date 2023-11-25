@@ -1,170 +1,131 @@
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "illustrations event-posters lds-logos"
-      "illustrations app-designs strategic-plan"
-      "omni-channel-infographic salsa-as-political-speech strategic-plan";
-      /* height: 1085px; */
-      background-color: #FFFFFF;
-    }
-  
-    /* .a:hover {
-      background: rgba(39,62,84,0.82);
-      overflow: hidden; */
-      /* height: 100%; */
-      /* z-index: -2; */
-    /* } */
-  
-    /* .link {
-      color: #fff; 
-    } */
-  
-  .illustrations { 
-    grid-area: illustrations; 
-    background-color: #FFFFFF;
+/* styles for grid */
+.container {  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "illustrations event-posters lds-logos"
+    "illustrations app-designs strategic-plan"
+    "omni-channel-infographic salsa-as-political-speech strategic-plan";
+  background-color: #FFFFFF;
+}
+
+.illustrations { 
+  grid-area: illustrations; 
+  background-color: #FFFFFF;
+}
+.event-posters { 
+  grid-area: event-posters; 
+  background-color: #E3D6A5;
+}
+.app-designs { 
+  grid-area: app-designs; 
+  background-color: #CBDBCF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lds-logos { 
+  grid-area: lds-logos; 
+  background-color: #BCCBD0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strategic-plan { 
+  grid-area: strategic-plan; 
+  background-color: #EDF3FB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.salsa-as-political-speech { 
+  grid-area: salsa-as-political-speech; 
+  background-color: #ECE2DD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.omni-channel-infographic { 
+  grid-area: omni-channel-infographic; 
+  background-color: #ECEFF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styles for image */
+.responsive {
+  width: 80%;
+}
+.smallerImage {
+  width: 70%;
+}
+.padding {
+  padding:  40px 0px 40px 0px;
+}
+
+/* styles for text over image */
+.img__wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.img__img {
+  align-self: center;
+  justify-self: center;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(132, 132, 133, 0.6);
+  color: white;
+  font-family: 'Medium';
+  font-size: 20px;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .1s, visibility .1s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .1s;
+  transform: translateY(1em);
+  text-align: center;
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+
+/* Styles for responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .container {
+    /* flex: 50%;
+    max-width: 50%; */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 100%
-    }
-
-    .workers-text {
-      position:relative;
-      z-index:1;
-    }
-
-  .illustrations .text{
-      position: absolute;
-      z-index: 999;
-      margin: 0 auto;
-      left: 0;
-      right: 0;        
-      text-align: center;
-      top: 40%; /* Adjust this value to move the positioned div up and down */
-      background: rgba(0, 0, 0, 0.8);
-      font-family: Arial,sans-serif;
-      color: #fff;
-      width: 60%; /* Set the width of the positioned div */
+    flex-wrap: wrap;
   }
+}
 
-  .a:hover {
-    background: rgba(43, 138, 226, 0.82);
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .container {
+    flex: 100%;
+    max-width: 100%;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  .event-posters {
-    grid-area: event-posters; 
-    /* background-color: #FFFFFF; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .responsive {
-    width: 80%;
-    /* height: auto; */
-  }
-
-  .smallerImage {
-    width: 70%;
-  }
-
-  .padding {
-    padding:  40px 0px 40px 0px;
-  }
-
-  .event-posters { 
-    grid-area: event-posters; 
-    background-color: #E3D6A5;
-
-  }
-  
-  .app-designs { 
-    grid-area: app-designs; 
-    background-color: #CBDBCF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .lds-logos { 
-    grid-area: lds-logos; 
-    background-color: #BCCBD0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .strategic-plan { 
-    grid-area: strategic-plan; 
-    background-color: #EDF3FB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .salsa-as-political-speech { 
-    grid-area: salsa-as-political-speech; 
-    background-color: #ECE2DD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .omni-channel-infographic { 
-    grid-area: omni-channel-infographic; 
-    background-color: #ECEFF8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .container {
-      /* flex: 50%;
-      max-width: 50%; */
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .container {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
-  
-  /* @media screen and (max-width: 800px) {
-  .container {  display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "illustrations event-posters lds-logos"
-      "illustrations app-designs strategic-plan"
-      "omni-channel-infographic salsa-as-political-speech strategic-plan";
-      height: 1085px;
-    }
-  } */
+}
