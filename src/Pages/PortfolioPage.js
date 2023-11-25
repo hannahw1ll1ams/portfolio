@@ -12,14 +12,25 @@ import eventPosters from '../images/rowing/event-posters-together-01.png'
 import ldsTshirtLogos from '../images/rowing/lds-tshirts-together-02.png'
 import strategicPlan from '../images/rowing/strategicPlan3.PNG'
 
+import pp from '../images/profilePicture.png'
+
+
 export default function PortfolioPage() {
 
     return (
         <div class="container">
         
+        {/* <div class="illustrations"> */}
+          {/* <Link to='illustrations'><img className="workers responsive" src= {workers} alt='logo'/></Link>
+          <p className="workers-text">illustrations</p> */}
+          
+        {/* </div> */}
+
         <div class="illustrations">
-          <Link to='illustrations'><img className="workers responsive" src= {workers} alt='logo'/></Link>
-          {/* <p className="workers-text">illustrations</p> */}
+        <Link to='illustrations'><img className="responsive hover" src= {workers} alt='two people working'/></Link>
+          <div class="text">
+          <p className="workers-text">illustrations</p>
+          </div>
         </div>
 
         <div class="event-posters">

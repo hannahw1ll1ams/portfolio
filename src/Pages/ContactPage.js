@@ -2,8 +2,6 @@ import React from "react";
 import '../css/contactPage.css'
 import pdf from "../Documents/HannahWilliamsCV.pdf"
 
-
-
 export default function IllustrationsPageContactPage() {
     return (
         <div className="outerContainer">
