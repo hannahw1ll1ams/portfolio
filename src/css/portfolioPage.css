@@ -7,55 +7,59 @@
       "illustrations event-posters lds-logos"
       "illustrations app-designs strategic-plan"
       "omni-channel-infographic salsa-as-political-speech strategic-plan";
-      /* height: 1085px; */
       background-color: #FFFFFF;
     }
-  
-    /* .a:hover {
-      background: rgba(39,62,84,0.82);
-      overflow: hidden; */
-      /* height: 100%; */
-      /* z-index: -2; */
-    /* } */
-  
-    /* .link {
-      color: #fff; 
-    } */
-  
-  .illustrations { 
-    grid-area: illustrations; 
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 100%
-    }
 
-    .workers-text {
-      position:relative;
-      z-index:1;
-    }
-
-  .illustrations .text{
-      position: absolute;
-      z-index: 999;
-      margin: 0 auto;
-      left: 0;
-      right: 0;        
-      text-align: center;
-      top: 40%; /* Adjust this value to move the positioned div up and down */
-      background: rgba(0, 0, 0, 0.8);
-      font-family: Arial,sans-serif;
-      color: #fff;
-      width: 60%; /* Set the width of the positioned div */
-  }
-
-  .a:hover {
-    background: rgba(43, 138, 226, 0.82);
-  }
+.illustrations { 
+  grid-area: illustrations; 
+  background-color: #FFFFFF;
+}
 
 
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  /* display: inline-block; */
+  display: flex;
+  align-items: center;
+}
+
+.img__img {
+  align-self: center;
+  justify-self: center;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(229, 229, 231, 0.6);
+  font-family: 'Medium';
+  font-size: 25px;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .1s, visibility .1s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .1s;
+  transform: translateY(1em);
+  text-align: center;
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
 
 
 

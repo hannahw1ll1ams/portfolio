@@ -31,7 +31,7 @@ export default function Header() {
       {/* <p>{location.pathname}</p>
       <p>{pageId}</p> */}
 			<nav class="navbar background"> 
-          <img className="App-logo" src= {logo} alt='logo'/> 
+          <Link to='/portfolio'><img className="App-logo" src= {logo} alt='logo'/></Link>
            <div className="right-nav">
             <ul class="nav-list"> 
             <Link to='/about'><li><button className={`link ${isPageSelected[0] ? "selected" : ""}`}>ABOUT</button></li></Link>

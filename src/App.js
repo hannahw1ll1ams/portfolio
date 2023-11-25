@@ -7,9 +7,12 @@ import Footer from './Components/Footer';
 
 import ContactPage from './Pages/ContactPage';
 import AboutPage from './Pages/AboutPage';
+
 import PortfolioPage from './Pages/PortfolioPage';
 import IllustrationsPage from './Pages/Sub-pages/Illustrations'
 import EventPostersPage from "./Pages/Sub-pages/Event-posters"
+import AppDesignsPage from './Pages/Sub-pages/App-designs';
+
 import ErrorPage from './Pages/ErrorPage';
 
 //fonts
@@ -34,7 +37,8 @@ function App() {
           <Route path='/portfolio'>
             <Route index element={ <PortfolioPage /> }/>
             <Route path='/portfolio/illustrations' element={ <IllustrationsPage /> }/>
-            <Route path="/portfolio/eventposters" exact element={<EventPostersPage />} />
+            <Route path='/portfolio/eventposters' element={<EventPostersPage />} />
+            <Route path='/portfolio/appdesigns' element={<AppDesignsPage />} />
          </Route>
           
           <Route path="/contact" exact element={<ContactPage />} />
