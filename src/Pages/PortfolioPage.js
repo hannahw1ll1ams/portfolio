@@ -39,7 +39,7 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap app-designs">
-            <Link to='appdesigns'>
+            <Link to='appdesign'>
               <img className="responsive img__img padding" src= {appLogos} alt='appLogos'/>
               <div class="img__description_layer">
                 <p class="img__description">APP DESIGN</p>
@@ -48,7 +48,7 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap lds-logos">
-            <Link to='eventposters'>
+            <Link to='tshirtlogo'>
               <img className="responsive img__img padding" src= {ldsTshirtLogos} alt='ldsTshirtLogos'/>
               <div class="img__description_layer">
                 <p class="img__description">T-SHIRT DESIGN</p>
@@ -57,7 +57,7 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap strategic-plan">
-            <Link to='eventposters'>
+            <Link to='strategicPlan'>
               <img className="smallerImage responsive img__img padding" src= {strategicPlan} alt='strategicPlan'/>
               <div class="img__description_layer">
                 <p class="img__description">STRATEGIC PLAN</p>
@@ -66,7 +66,7 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap salsa-as-political-speech">
-            <Link to='eventposters'>
+            <Link to='salsapoliticalspeech'>
               <img className="responsive img__img padding" src= {salsaGraphic} alt='salsaGraphic'/>
               <div class="img__description_layer">
                 <p class="img__description">SALSA AS POLITICAL SPEECH <br /> INFOGRAPHIC</p>
@@ -75,7 +75,7 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap omni-channel-infographic">
-            <Link to='eventposters'>
+            <Link to='omnichannel'>
               <img className="responsive img__img padding" src= {universalBasket} alt='universalBasket'/>
               <div class="img__description_layer">
                 <p class="img__description">OMNI-CHANNEL VISION</p>

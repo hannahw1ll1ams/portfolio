@@ -12,6 +12,10 @@ import PortfolioPage from './Pages/PortfolioPage';
 import IllustrationsPage from './Pages/Sub-pages/Illustrations'
 import EventPostersPage from "./Pages/Sub-pages/Event-posters"
 import AppDesignsPage from './Pages/Sub-pages/App-designs';
+import TshirtDesignPage from './Pages/Sub-pages/Tshirt-design';
+import OmnichannelInfographicPage from './Pages/Sub-pages/Omni-channel-infographic';
+import SalsaAsPoliticalSpeechPage from './Pages/Sub-pages/Salsa-as-political-speech';
+import StrategicPlanPage from './Pages/Sub-pages/Strategic-Plan';
 
 import ErrorPage from './Pages/ErrorPage';
 
@@ -38,7 +42,11 @@ function App() {
             <Route index element={ <PortfolioPage /> }/>
             <Route path='/portfolio/illustrations' element={ <IllustrationsPage /> }/>
             <Route path='/portfolio/eventposters' element={<EventPostersPage />} />
-            <Route path='/portfolio/appdesigns' element={<AppDesignsPage />} />
+            <Route path='/portfolio/appdesign' element={<AppDesignsPage />} />
+            <Route path='/portfolio/tshirtlogo' element={<TshirtDesignPage />} />
+            <Route path='/portfolio/strategicPlan' element={<StrategicPlanPage />} />
+            <Route path='/portfolio/salsapoliticalspeech' element={<SalsaAsPoliticalSpeechPage />} />
+            <Route path='/portfolio/omnichannel' element={<OmnichannelInfographicPage />} />
          </Route>
           
           <Route path="/contact" exact element={<ContactPage />} />
