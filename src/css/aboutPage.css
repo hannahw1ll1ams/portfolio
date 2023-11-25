@@ -1,6 +1,7 @@
 .aboutMe-container {
     /* background-color: #b3c83b; */
-    background-color: #EBEAE4;
+    /* background-color: #EBEAE4; */
+    background-color: #ebe7ea;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -54,12 +55,7 @@
     flex-direction: column;
     justify-content: space-between;
     /* background-color: #5a51b6; */
-    background-color: #C8C6BF;
-}
-
-.profile-image {
-    width: 300px;
-    height: 300px;
+    /* background-color: #C8C6BF; */
 }
 
 .name {
@@ -70,12 +66,14 @@
 .bio {
     /* color: rgb(242, 240, 240); */
     font-family: 'Medium';
-    font-size: 20px;
+    font-size: 50px;
+    padding: 20px 0px 40px 0px;
+    /* padding: 40px 40px 40px 40px; */
 }
 
 .description {
-    font-family: 'regular';
-    font-size: 15px;
+    font-family: 'Italic';
+    font-size: 20px;
 }
 
 h1 {
@@ -84,7 +82,7 @@ h1 {
 }
 
 .technologies-container {
-    background-color: #E3D6A5;
+    background-color: #B6B8AB;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -94,9 +92,10 @@ h1 {
 
 .icons-row {
     height: 100%;
-    width: 100%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
+    align-self: center;
     align-items: center;
     /* background-color: #2d56b6; */
 }

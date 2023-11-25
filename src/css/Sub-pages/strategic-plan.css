@@ -1,0 +1,23 @@
+.portraitWidth {
+    width: 40%;
+}
+
+.landscapeWidth {
+    width: 70%;
+}
+
+.version1Container {
+    background-color: #CBCED8;
+}
+
+.version2Container {
+    background-color: #D8E6F5;
+}
+
+.planPilarsContainer {
+    background-color: #E3D6A5;
+}
+
+.finalVersionContainer {
+    background-color: #EEEEEE;
+}
