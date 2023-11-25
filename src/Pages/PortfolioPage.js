@@ -21,7 +21,7 @@ export default function PortfolioPage() {
         <div class="container">
       
           <div class="img__wrap illustrations">
-            <Link to='illustrations'>
+            <Link to='/portfolio/illustrations'>
               <img className="responsive img__img padding" src= {workers} alt='two people working'/>
               <div class="img__description_layer">
                 <p class="img__description">LIVE SKETCH</p>
@@ -30,7 +30,7 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap event-posters">
-            <Link to='eventposters'>
+            <Link to='/portfolio/eventposters'>
               <img className="responsive img__img padding" src= {eventPosters} alt='eventPosters'/>
               <div class="img__description_layer">
                 <p class="img__description">POSTERS</p>
@@ -39,7 +39,7 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap app-designs">
-            <Link to='appdesign'>
+            <Link to='/portfolio/appdesign'>
               <img className="responsive img__img padding" src= {appLogos} alt='appLogos'/>
               <div class="img__description_layer">
                 <p class="img__description">APP DESIGN</p>
@@ -48,7 +48,7 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap lds-logos">
-            <Link to='tshirtlogo'>
+            <Link to='/portfolio/tshirtlogo'>
               <img className="responsive img__img padding" src= {ldsTshirtLogos} alt='ldsTshirtLogos'/>
               <div class="img__description_layer">
                 <p class="img__description">T-SHIRT DESIGN</p>
@@ -57,7 +57,7 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap strategic-plan">
-            <Link to='strategicplan'>
+            <Link to='/portfolio/strategicplan'>
               <img className="smallerImage responsive img__img padding" src= {strategicPlan} alt='strategicPlan'/>
               <div class="img__description_layer">
                 <p class="img__description">STRATEGIC PLAN</p>
@@ -66,7 +66,7 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap salsa-as-political-speech">
-            <Link to='salsapoliticalspeech'>
+            <Link to='/portfolio/salsapoliticalspeech'>
               <img className="responsive img__img padding" src= {salsaGraphic} alt='salsaGraphic'/>
               <div class="img__description_layer">
                 <p class="img__description">SALSA AS POLITICAL SPEECH <br /> INFOGRAPHIC</p>
@@ -75,7 +75,7 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap omni-channel-infographic">
-            <Link to='omnichannel'>
+            <Link to='/portfolio/omnichannel'>
               <img className="responsive img__img padding" src= {universalBasket} alt='universalBasket'/>
               <div class="img__description_layer">
                 <p class="img__description">OMNI-CHANNEL VISION</p>
