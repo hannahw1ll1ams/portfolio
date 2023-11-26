@@ -1,4 +1,4 @@
-.outerContainer {
+/* .outerContainer {
     height: 625px;
     background: #B6B8AB;
 }
@@ -13,4 +13,40 @@
 .mediaLink {
     padding: 10px;
     color: black;
+} */
+
+
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 750px;
+    align-items: center;
+}
+
+.nameLocation {
+    height: 400px;
+    font-family: "Medium";
+    text-align: start;
+}
+
+.contactInformation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+.block {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    width: 250px;
+}
+
+.alignment {
+    text-align: start;
 }

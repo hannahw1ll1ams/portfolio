@@ -27,9 +27,7 @@ export default function Header() {
   };
 
 	return ( 
-		<div> 
-      {/* <p>{location.pathname}</p>
-      <p>{pageId}</p> */}
+		<header> 
 			<nav class="navbar background"> 
           <Link to='/portfolio'><img className="App-logo" src= {logo} alt='logo'/></Link>
            <div className="right-nav">
@@ -43,6 +41,6 @@ export default function Header() {
             <p className="title">developer / designer</p>
           </div> 
 			</nav> 
-		</div> 
+		</header> 
 	) 
 } 

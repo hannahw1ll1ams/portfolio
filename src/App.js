@@ -29,9 +29,7 @@ import './fonts/Inter-Regular.woff'
 function App() {
   return (
       <div className="App">
-        <header className="App-header">
-            <Header/>
-        </header>
+        <Header/>
         
         <Routes>
           <Route path="/about" exact element={<AboutPage />} />
@@ -40,42 +38,21 @@ function App() {
 
           <Route path='/portfolio'>
             <Route index element={ <PortfolioPage /> }/>
-            <Route path='/portfolio/illustrations' element={ <IllustrationsPage /> }/>
-            <Route path='/portfolio/eventposters' element={<EventPostersPage />} />
-            <Route path='/portfolio/appdesign' element={<AppDesignsPage />} />
-            <Route path='/portfolio/tshirtlogo' element={<TshirtDesignPage />} />
-            <Route path='/portfolio/strategicplan' element={<StrategicPlanPage />} />
-            <Route path='/portfolio/salsapoliticalspeech' element={<SalsaAsPoliticalSpeechPage />} />
-            <Route path='/portfolio/omnichannel' element={<OmnichannelInfographicPage />} />
+            <Route path='/portfolio/illustrations' element={<> <IllustrationsPage /><Footer /></> }/>
+            <Route path='/portfolio/eventposters' element={ <><EventPostersPage /><Footer /></>} />
+            <Route path='/portfolio/appdesign' element={<><AppDesignsPage /><Footer /></>} />
+            <Route path='/portfolio/tshirtlogo' element={<><TshirtDesignPage /><Footer /></>} />
+            <Route path='/portfolio/strategicplan' element={<><StrategicPlanPage /><Footer /></>} />
+            <Route path='/portfolio/salsapoliticalspeech' element={<><SalsaAsPoliticalSpeechPage /><Footer /></>} />
+            <Route path='/portfolio/omnichannel' element={<><OmnichannelInfographicPage /><Footer /></>} />
          </Route>
           
           <Route path="/contact" exact element={<ContactPage />} />
           <Route path="/*" exact element={<ErrorPage />} />
         </Routes>
-        
-        {/* <footer className="App-footer">
-            <Footer />
-        </footer> */}
-        
+
       </div>
   );
 }
 
 export default App;
-
-
-
-
-
-// home page -> /
-// contact page -> /contact
-// about page -> /about
-// portfolio page -> /portfolio
-// illustrations /portfolio/illustrations and a back button?
-// or 
-// portfolio page -> illustration page /portfolio/illustrations and a back button?
-// or 
-// illustration page /portfolio/123 and a back button?
-
-
-
