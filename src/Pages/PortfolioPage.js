@@ -13,13 +13,14 @@ import ldsTshirtLogos from '../images/rowing/lds-tshirts-together-02.png'
 import strategicPlan from '../images/rowing/strategicPlan3.PNG'
 
 import pp from '../images/profilePicture.png'
+import Footer from '../Components/Footer';
 
 
 export default function PortfolioPage() {
 
     return (
+      <>
         <div class="container">
-      
           <div class="img__wrap illustrations">
             <Link to='/portfolio/illustrations'>
               <img className="responsive img__img padding" src= {workers} alt='two people working'/>
@@ -82,7 +83,10 @@ export default function PortfolioPage() {
               </div>
             </Link>
           </div>
-        
       </div>
+      <footer className="App-footer">
+            <Footer />
+        </footer>
+        </>
     );
 }
