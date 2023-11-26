@@ -53,9 +53,9 @@ function App() {
           <Route path="/*" exact element={<ErrorPage />} />
         </Routes>
         
-        <footer className="App-footer">
+        {/* <footer className="App-footer">
             <Footer />
-        </footer>
+        </footer> */}
         
       </div>
   );

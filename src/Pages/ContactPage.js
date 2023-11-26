@@ -12,9 +12,12 @@ export default function IllustrationsPageContactPage() {
                 <a target="_blank" className="mediaLink" href="https://github.com/hannahw1ll1ams">https://github.com/hannahw1ll1ams</a>
                 <a target="_blank" className="mediaLink" href="https://twitter.com/h3nn3hw1ll13ms">https://twitter.com/h3nn3hw1ll13ms</a>
                 <a target="_blank" className="mediaLink" href="https://medium.com/footasylum-tech/how-i-got-here-hannah-williams-software-engineer-7068c9216722">Blog post about my journey to becoming a Software Engineer</a>
+                <a target="_blank" className="mediaLink" href="https://dribbble.com/hannahw1ll1ams">Dribble account</a>
 
                 <a className="mediaLink" href={pdf}>download CV</a>
             </div>
         </div>
     );
 }
+
+
