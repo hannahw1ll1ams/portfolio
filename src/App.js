@@ -6,7 +6,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 
 import ContactPage from './Pages/ContactPage';
-import AboutPage from './Pages/AboutPage';
+// import AboutPage from './Pages/AboutPage';
 
 import PortfolioPage from './Pages/PortfolioPage';
 import IllustrationsPage from './Pages/Sub-pages/Illustrations'
@@ -32,7 +32,7 @@ function App() {
         <Header/>
         
         <Routes>
-          <Route path="/about" exact element={<AboutPage />} />
+          {/* <Route path="/about" exact element={<AboutPage />} /> */}
 
           <Route path="/" exact element={<PortfolioPage />} />
 

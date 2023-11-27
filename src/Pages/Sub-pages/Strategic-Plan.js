@@ -11,15 +11,18 @@ export default function StrategicPlanPage() {
        <>
         <div className="finalVersionContainer">
                 <div className="topText">
-                    <h1></h1>
+                    <h1>STRATEGIC PLAN</h1>
                     <h1>2022</h1>
                 </div>
                 <img className="portraitWidth" src= {finalVersion} alt='finalVersion'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">iterations / collaboration / communication / styles / procreate / vectors</p>
+                    <p className="imageKeyWords">final iteration / communication / clean / procreate / vectors</p>
                 </div>
         </div>
+        <p className="description">
+            Collaborating with a rowing club on a illustration to communicate their 5 year strategic plan to club members.<br />My concept is the club is the boat, starting at one end of the river at '2022', and it moves along the Royal Chester river towards 2027 with the help of the pillars as boat oar's. 
+        </p>
 
        <div className="version1Container">
                 <div className="topText">
@@ -29,7 +32,7 @@ export default function StrategicPlanPage() {
                 <img className="portraitWidth" src= {version1} alt='version1'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">consistent branding</p>
+                    <p className="imageKeyWords">hand drawn style</p>
                 </div>
         </div>
 
@@ -41,19 +44,19 @@ export default function StrategicPlanPage() {
                 <img className="portraitWidth" src= {version2} alt='version2'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">consistent branding</p>
+                    <p className="imageKeyWords">playing with perspective</p>
                 </div>
         </div>
 
         <div className="planPilarsContainer">
                 <div className="topText">
-                    <h1>STRATEGIC PLAN PILLARS</h1>
+                    <h1>PILLARS</h1>
                     <h1>2022</h1>
                 </div>
                 <img className="landscapeWidth" src= {planPillars} alt='version1'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">consistent branding</p>
+                    <p className="imageKeyWords">member's values</p>
                 </div>
         </div>
        </>
