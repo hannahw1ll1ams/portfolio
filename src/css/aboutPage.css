@@ -1,11 +1,9 @@
 .aboutMe-container {
-    /* background-color: #b6dedd; */
-    /* padding: 30px; */
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* height: 800px; */
 }
 
 .titles {
@@ -17,10 +15,9 @@
 }
 
 .bio {
-    font-family: 'Medium';
+    font-family: 'Bold';
     font-size: 25px;
     width: 65%;
-    text-align: start;
     padding: 30px;
 }
 
@@ -30,6 +27,8 @@
     align-self: center;
     align-items: center;
     width: 100%;
+    float: right;
+    padding: 70px;
 }
 
 .icons {
