@@ -5,3 +5,8 @@
 .omnichannelWidth {
     width: 70%;
 }
+
+.description {
+    background-color: white;
+    padding: 30px;
+}

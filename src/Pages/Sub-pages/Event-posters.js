@@ -17,7 +17,7 @@ export default function EventPostersPage() {
                 <img className="singleImageWidth" src= {springBall} alt='anniversaryBall'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">consistent branding</p>
+                    <p className="imageKeyWords">developing consistent branding across events for Royal Chester</p>
                 </div>
         </div>
 
