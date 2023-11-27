@@ -67,10 +67,10 @@ export default function PortfolioPage() {
           </div>
 
           <div class="img__wrap salsa-as-political-speech">
-            <Link to='/portfolio/salsapoliticalspeech'>
+            <Link to='/portfolio/graphics'>
               <img className="responsive img__img padding" src= {salsaGraphic} alt='salsaGraphic'/>
               <div class="img__description_layer">
-                <p class="img__description">SALSA AS POLITICAL SPEECH <br /> INFOGRAPHIC</p>
+                <p class="img__description">GRAPHICS</p>
               </div>
             </Link>
           </div>

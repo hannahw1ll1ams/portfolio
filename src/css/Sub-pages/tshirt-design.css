@@ -11,3 +11,17 @@
     height: 500px;  
     padding: 0px 40px;
 }
+
+.imageDescription{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.singleTshirtImage {
+    height: 500px;
+}
+
+.logoContainer {
+    background-color: white;
+    width: 700%;
+}

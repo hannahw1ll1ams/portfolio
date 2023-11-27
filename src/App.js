@@ -14,7 +14,7 @@ import EventPostersPage from "./Pages/Sub-pages/Event-posters"
 import AppDesignsPage from './Pages/Sub-pages/App-designs';
 import TshirtDesignPage from './Pages/Sub-pages/Tshirt-design';
 import OmnichannelInfographicPage from './Pages/Sub-pages/Omni-channel-infographic';
-import SalsaAsPoliticalSpeechPage from './Pages/Sub-pages/Salsa-as-political-speech';
+import GraphicsPage from './Pages/Sub-pages/Graphics';
 import StrategicPlanPage from './Pages/Sub-pages/Strategic-Plan';
 
 import ErrorPage from './Pages/ErrorPage';
@@ -43,7 +43,7 @@ function App() {
             <Route path='/portfolio/appdesign' element={<><AppDesignsPage /><Footer /></>} />
             <Route path='/portfolio/tshirtlogo' element={<><TshirtDesignPage /><Footer /></>} />
             <Route path='/portfolio/strategicplan' element={<><StrategicPlanPage /><Footer /></>} />
-            <Route path='/portfolio/salsapoliticalspeech' element={<><SalsaAsPoliticalSpeechPage /><Footer /></>} />
+            <Route path='/portfolio/graphics' element={<><GraphicsPage /><Footer /></>} />
             <Route path='/portfolio/omnichannel' element={<><OmnichannelInfographicPage /><Footer /></>} />
          </Route>
           
