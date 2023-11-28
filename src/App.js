@@ -35,16 +35,16 @@ function App() {
   }
 
   return (
-      <div className="App">
+      <div className={`App ${isHamburgerOpen ? "fixed" : ""}`}>
         <Header isHamburgerOpen={isHamburgerOpen} toggleState={() => toggleHamburger}/>
 
         {isHamburgerOpen && (
         <div className='hamburgerMenu'>
-          <p>PORTFOLIO</p>
-          <p>CONTACT</p>
+          <p className='hamburgerItem'>PORTFOLIO</p>
+          <p className='hamburgerItem'>CONTACT</p>
       </div>
       )}
-        
+        <div className='appPages'>
         <Routes>
           <Route path="/" exact element={<PortfolioPage />} />
           <Route path='/portfolio'>
@@ -60,6 +60,7 @@ function App() {
           <Route path="/contact" exact element={<ContactPage />} />
           <Route path="/*" exact element={<ErrorPage />} />
         </Routes>
+        </div>
 
       </div>
   );

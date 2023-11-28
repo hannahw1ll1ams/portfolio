@@ -24,9 +24,6 @@ export default function Header({ isHamburgerOpen, toggleState }) {
   };
 
 	return ( 
-
-    
-
 		<header class="background"> 
 			<nav class="navbar"> 
           <Link to='/portfolio'><img className="App-logo" src= {logo} alt='logo'/></Link>
@@ -38,13 +35,12 @@ export default function Header({ isHamburgerOpen, toggleState }) {
 		      </div> 
 
           <div className="right-nav">
-          <ul class="nav-list"> 
-          <Link to='/portfolio'><li><button className={`link ${isPageSelected[0] ? "selected" : ""}`}>PORTFOLIO</button></li></Link>
-          <li><p>/</p></li>
-          <Link to='/contact'><li><button className={`link ${isPageSelected[1] ? "selected" : ""}`}>CONTACT</button></li></Link>
-          </ul> 
-          <p className="title">developer / designer</p>
-
+            <ul class="nav-list"> 
+            <Link to='/portfolio'><li><button className={`link ${isPageSelected[0] ? "selected" : ""}`}>PORTFOLIO</button></li></Link>
+            <li><p>/</p></li>
+            <Link to='/contact'><li><button className={`link ${isPageSelected[1] ? "selected" : ""}`}>CONTACT</button></li></Link>
+            </ul> 
+            <p className="title">developer / designer</p>
           </div> 
 			</nav> 
 		</header> 

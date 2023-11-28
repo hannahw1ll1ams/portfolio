@@ -75,18 +75,38 @@ button {
     font-weight: 100;
 } 
 
+.hamburgerMenu {
+    z-index: 10;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    background-color: #DFCDC9;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hamburgerItem {
+    font-family: "Bold";
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+}
+
+.appPages {
+    z-index: 0;
+}
 
 .burger1{
     transform: rotate(45deg);
 }
 .burger2{
-    /* transform: translateX(100%); */
     opacity: 0;
 }
 .burger3{
     transform: rotate(-45deg);
 }
-
 
 /* Styles for responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -115,7 +135,12 @@ button {
         transform-origin: 1px;
         /* transition: all 0.1s linear; */
     }
-
+    .background {
+        height: 100px;
+    }
+    .navbar {
+        height: 100px;
+    }
 
     .App-logo {
         height: 50px;
