@@ -39,10 +39,6 @@ button {
     padding: 20px; 
 } 
 
-/* .burgerContainer {
-    display: none;
-} */
-
 .nav-list { 
     display: flex;
     padding: 15px 20px; 
@@ -80,6 +76,18 @@ button {
 } 
 
 
+.burger1{
+    transform: rotate(45deg);
+}
+.burger2{
+    /* transform: translateX(100%); */
+    opacity: 0;
+}
+.burger3{
+    transform: rotate(-45deg);
+}
+
+
 /* Styles for responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
     .App-logo {
@@ -105,19 +113,10 @@ button {
         border-radius: 10px;
         background-color: black;
         transform-origin: 1px;
-        transition: all 0.3s linear;
+        /* transition: all 0.1s linear; */
     }
 
-    /* .burger1{
-        transform: ${ isOpen ? 'rotate(45deg)' : 'rotate(0)'};
-    }
-    .burger2{
-        transform: ${ isOpen ? 'translateX(100%)' : 'translateX(0)'};
-        opacity: ${ isOpen ? 0 : 1};
-    }
-    .burger3{
-        transform: ${ isOpen ? 'rotate(-45deg)' : 'rotate(0)'};
-    } */
+
     .App-logo {
         height: 50px;
     }

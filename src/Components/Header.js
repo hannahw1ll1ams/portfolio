@@ -23,16 +23,18 @@ export default function Header({ isHamburgerOpen, toggleState }) {
     }
   };
 
-
 	return ( 
+
+    
+
 		<header class="background"> 
 			<nav class="navbar"> 
           <Link to='/portfolio'><img className="App-logo" src= {logo} alt='logo'/></Link>
           
           <div className='hamburger' onClick={toggleState(!isHamburgerOpen)}> 
-			      <div className='burger burger1'/>
-            <div className='burger burger2'/>
-            <div className='burger burger3'/>
+            <div className={`burger ${isHamburgerOpen ? "burger1" : ""}`}/>
+            <div className={`burger ${isHamburgerOpen ? "burger2" : ""}`}/>
+            <div className={`burger ${isHamburgerOpen ? "burger3" : ""}`}/>
 		      </div> 
 
           <div className="right-nav">
