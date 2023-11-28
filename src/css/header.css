@@ -15,6 +15,7 @@ button {
 
 .background { 
 	background-color: #DFCDC9;
+    height: 160px;
 } 
 
 .navbar { 
@@ -23,10 +24,6 @@ button {
     align-items: flex-end;
     height: 160px;
 } 
-
-/* ul { */
-    /* padding: 0px; */
-/* } */
 
 .right-nav {
     display: flex;
@@ -77,3 +74,78 @@ button {
     font-family: 'Italic';
     font-weight: 100;
 } 
+
+.hamburgerMenu {
+    z-index: 10;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    background-color: #DFCDC9;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hamburgerItem {
+    font-family: "Medium";
+    font-size: 35px;
+    padding: 10px;
+}
+
+.appPages {
+    z-index: 0;
+}
+
+.burger1{
+    transform: rotate(45deg);
+}
+.burger2{
+    opacity: 0;
+}
+.burger3{
+    transform: rotate(-45deg);
+}
+
+/* Styles for responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .App-logo {
+        height: 70px;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .hamburger {
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: column nowrap;
+        z-index: 10;
+        padding: 20px;
+    }
+    
+    .burger {
+        width: 2rem;
+        height: 0.25rem;
+        border-radius: 10px;
+        background-color: black;
+        transform-origin: 1px;
+        /* transition: all 0.1s linear; */
+    }
+    .background {
+        height: 100px;
+    }
+    .navbar {
+        height: 100px;
+    }
+
+    .App-logo {
+        height: 50px;
+    }
+    .right-nav {
+    display: none;
+    }
+  }
+  

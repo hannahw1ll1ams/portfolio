@@ -5,7 +5,7 @@ import '../css/header.css';
 import logo from '../images/logo.PNG'
 
 
-export default function Header() {
+export default function Header({ isHamburgerOpen, toggleState }) { 
 
   const [isPageSelected, setIsPageSelected] = useState([true, false]);
 
@@ -15,9 +15,6 @@ export default function Header() {
   }, [location]);
   
   const id = () => {
-    // if (/about$/.test(location.pathname)) {
-    //   setIsPageSelected([true, false, false])
-    // } else
     if (/portfolio$/.test(location.pathname)) {
       setIsPageSelected([true, false])
     }
@@ -27,13 +24,18 @@ export default function Header() {
   };
 
 	return ( 
-		<header> 
-			<nav class="navbar background"> 
+		<header class="background"> 
+			<nav class="navbar"> 
           <Link to='/portfolio'><img className="App-logo" src= {logo} alt='logo'/></Link>
-           <div className="right-nav">
+          
+          <div className='hamburger' onClick={toggleState(!isHamburgerOpen)}> 
+            <div className={`burger ${isHamburgerOpen ? "burger1" : ""}`}/>
+            <div className={`burger ${isHamburgerOpen ? "burger2" : ""}`}/>
+            <div className={`burger ${isHamburgerOpen ? "burger3" : ""}`}/>
+		      </div> 
+
+          <div className="right-nav">
             <ul class="nav-list"> 
-            {/* <Link to='/about'><li><button className={`link ${isPageSelected[0] ? "selected" : ""}`}>ABOUT</button></li></Link>
-            <li><p>/</p></li> */}
             <Link to='/portfolio'><li><button className={`link ${isPageSelected[0] ? "selected" : ""}`}>PORTFOLIO</button></li></Link>
             <li><p>/</p></li>
             <Link to='/contact'><li><button className={`link ${isPageSelected[1] ? "selected" : ""}`}>CONTACT</button></li></Link>

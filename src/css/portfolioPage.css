@@ -115,8 +115,6 @@
 /* Styles for responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .container {
-    /* flex: 50%;
-    max-width: 50%; */
     display: flex;
     flex-wrap: wrap;
   }
