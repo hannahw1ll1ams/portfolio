@@ -15,6 +15,7 @@ button {
 
 .background { 
 	background-color: #DFCDC9;
+    height: 160px;
 } 
 
 .navbar { 
@@ -23,10 +24,6 @@ button {
     align-items: flex-end;
     height: 160px;
 } 
-
-/* ul { */
-    /* padding: 0px; */
-/* } */
 
 .right-nav {
     display: flex;
@@ -41,6 +38,15 @@ button {
     align-self: flex-end;
     padding: 20px; 
 } 
+
+.hamburgerMenu {
+    height: 100%;
+    background-color: aqua;
+}
+
+/* .burgerContainer {
+    display: none;
+} */
 
 .nav-list { 
     display: flex;
@@ -77,3 +83,51 @@ button {
     font-family: 'Italic';
     font-weight: 100;
 } 
+
+
+/* Styles for responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .App-logo {
+        height: 70px;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .hamburger {
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: column nowrap;
+        z-index: 10;
+        padding: 20px;
+    }
+    
+    .burger {
+        width: 2rem;
+        height: 0.25rem;
+        border-radius: 10px;
+        background-color: black;
+        transform-origin: 1px;
+        transition: all 0.3s linear;
+    }
+
+    /* .burger1{
+        transform: ${ isOpen ? 'rotate(45deg)' : 'rotate(0)'};
+    }
+    .burger2{
+        transform: ${ isOpen ? 'translateX(100%)' : 'translateX(0)'};
+        opacity: ${ isOpen ? 0 : 1};
+    }
+    .burger3{
+        transform: ${ isOpen ? 'rotate(-45deg)' : 'rotate(0)'};
+    } */
+    .App-logo {
+        height: 50px;
+    }
+    .right-nav {
+    display: none;
+    }
+  }
+  
