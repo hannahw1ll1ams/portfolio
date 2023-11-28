@@ -5,10 +5,9 @@ import '../css/header.css';
 import logo from '../images/logo.PNG'
 
 
-export default function Header() {
+export default function Header({ isHamburgerOpen, toggleState }) { 
 
   const [isPageSelected, setIsPageSelected] = useState([true, false]);
-  const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
 
   let location = useLocation();
   React.useEffect(() => {
@@ -24,35 +23,17 @@ export default function Header() {
     }
   };
 
-  const toggleHamburger = () => {
-    setIsHamburgerOpen(!isHamburgerOpen)
-  }
 
 	return ( 
 		<header class="background"> 
 			<nav class="navbar"> 
           <Link to='/portfolio'><img className="App-logo" src= {logo} alt='logo'/></Link>
           
-          <div className='hamburger' onClick={toggleHamburger}> 
+          <div className='hamburger' onClick={toggleState(!isHamburgerOpen)}> 
 			      <div className='burger burger1'/>
             <div className='burger burger2'/>
             <div className='burger burger3'/>
 		      </div> 
-
-        {/* if (isHamburgerOpen) {
-          <div className='hamburgerMenu'>
-          <p>PORTFOLIO</p>
-          <p>CONTACT</p>
-        </div>
-        } */}
-
-      {isHamburgerOpen && (
-        <div className='hamburgerMenu'>
-          <p>PORTFOLIO</p>
-          <p>CONTACT</p>
-      </div>
-      )}
-
 
           <div className="right-nav">
           <ul class="nav-list"> 

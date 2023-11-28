@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
@@ -27,15 +27,26 @@ import './fonts/Inter-Medium.woff2'
 import './fonts/Inter-Regular.woff'
 
 function App() {
+
+  const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
+
+  const toggleHamburger = () => {
+    setIsHamburgerOpen(!isHamburgerOpen)
+  }
+
   return (
       <div className="App">
-        <Header/>
+        <Header isHamburgerOpen={isHamburgerOpen} toggleState={() => toggleHamburger}/>
+
+        {isHamburgerOpen && (
+        <div className='hamburgerMenu'>
+          <p>PORTFOLIO</p>
+          <p>CONTACT</p>
+      </div>
+      )}
         
         <Routes>
-          {/* <Route path="/about" exact element={<AboutPage />} /> */}
-
           <Route path="/" exact element={<PortfolioPage />} />
-
           <Route path='/portfolio'>
             <Route index element={ <PortfolioPage /> }/>
             <Route path='/portfolio/illustrations' element={<> <IllustrationsPage /><Footer /></> }/>
@@ -46,7 +57,6 @@ function App() {
             <Route path='/portfolio/graphics' element={<><GraphicsPage /><Footer /></>} />
             <Route path='/portfolio/omnichannel' element={<><OmnichannelInfographicPage /><Footer /></>} />
          </Route>
-          
           <Route path="/contact" exact element={<ContactPage />} />
           <Route path="/*" exact element={<ErrorPage />} />
         </Routes>
