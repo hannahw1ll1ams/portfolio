@@ -88,9 +88,8 @@ button {
     align-items: center;
 }
 .hamburgerItem {
-    font-family: "Bold";
+    font-family: "Medium";
     font-size: 35px;
-    color: white;
     padding: 10px;
 }
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 
 import Header from './Components/Header';
@@ -40,8 +40,8 @@ function App() {
 
         {isHamburgerOpen && (
         <div className='hamburgerMenu'>
-          <p className='hamburgerItem'>PORTFOLIO</p>
-          <p className='hamburgerItem'>CONTACT</p>
+          <Link to="/portfolio" onClick={toggleHamburger}><p className='hamburgerItem'>PORTFOLIO</p></Link>
+          <Link to="/contact" onClick={toggleHamburger}><p className='hamburgerItem'>CONTACT</p></Link>
       </div>
       )}
         <div className='appPages'>
