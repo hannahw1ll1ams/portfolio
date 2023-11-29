@@ -16,7 +16,7 @@ export default function IllustrationsPage() {
                     <h1>LIVE SKETCH</h1>
                     <h1>2023</h1>
                 </div>
-                <img className="singleImage" src= {workers} alt='workers'/>
+                <img className="liveSketchSingleImage" src= {workers} alt='workers'/>
                 <div className="bottomText">
                     <h1></h1>
                     <p className="imageKeyWords">stormy sea and sky view working from coffee shop</p>
@@ -44,7 +44,7 @@ export default function IllustrationsPage() {
                      <h1></h1>
                        <h1>2021</h1>
                 </div>
-                <img className="singleImage" src= {ines} alt='ines'/>
+                <img className="halfSingleImage" src= {ines} alt='ines'/>
                 <div className="bottomText">
                     <h1></h1>
                      <p className="imageKeyWords">procreate / illustration</p>
@@ -56,7 +56,7 @@ export default function IllustrationsPage() {
                      <h1></h1>
                        <h1>2021</h1>
                 </div>
-                <img className="singleImage" src= {ines} alt='ines'/>
+                <img className="halfSingleImage" src= {ines} alt='ines'/>
                 <div className="bottomText">
                     <h1></h1>
                      <p className="imageKeyWords">first live sketch</p>
@@ -83,7 +83,7 @@ export default function IllustrationsPage() {
                     <h1></h1>
                     <h1>2022</h1>
                 </div>
-                <img className="singleImage" src= {hugging} alt='hugging'/>
+                <img className="liveSketchSingleImage" src= {hugging} alt='hugging'/>
                 <div className="bottomText">
                     <h1></h1>
                     <p className="imageKeyWords">picture sketch</p>

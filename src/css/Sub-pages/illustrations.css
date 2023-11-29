@@ -1,21 +1,29 @@
 .whiteContainer {
     background-color: white;
 }
-.singleImage {
-    height: 700px;
+.liveSketchSingleImage {
+    /* height: 700px; */
+    width: 50%;
 }
 
 .procrastinationContainer {
     background-color: #EFEAEA;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 .imageContainer {
     display: flex;
     justify-content: center;
-    height: 700px;
+    align-items: center;
+    /* height: 700px; */
+    /* width: 50%; */
 }
 
 .procrastination {
-    height: 700px;  
+    /* height: 700px;   */
+
+    width: 40%;
     padding: 0px 40px;
 }
 
@@ -25,9 +33,13 @@
 }
 .twoRunnersContainer {
     background-color: #FFE4E5;
-    width: 50%;
+    width: 70%;
 }
 .inesContainer {
     background-color: #CDABAB;
-    width: 50%;
+    width: 70%;
+}
+
+.halfSingleImage {
+    width: 70%;
 }
