@@ -37,9 +37,9 @@ export default function TshirtDesignPage() {
         <div class="finalTshirtContainer">
 
             <div class="finalLogos boxLayout">
-                <div className="topText tshirtTopText">
-                    <h1>1</h1>
-                    <h1></h1>
+                <div className="topText textWidth">
+                    <h1>LONG DISTANCE SCULLS EVENT T-SHIRT DESIGN</h1>
+                    <h1>2022</h1>
                 </div>
                 <img className="ldsResponsive" src= {ldsTogether} alt='ldsTogether'/>               
                 <div className="bottomText tshirtBottomText">
@@ -49,7 +49,7 @@ export default function TshirtDesignPage() {
             </div>
 
             <div class="iteration1 boxLayout">
-                <div className="topText tshirtTopText">
+                <div className="topText textWidth">
                     <h1>1</h1>
                     <h1></h1>
                 </div>
@@ -61,37 +61,38 @@ export default function TshirtDesignPage() {
             </div>
 
             <div class="iteration2 boxLayout">
-                <div className="topText tshirtTopText">
+                <div className="topText textWidth">
                     <h1>2</h1>
                     <h1></h1>
                 </div>
                 <img className="ldsResponsive" src= {tshirt4} alt='anniversaryBall'/>
                 <div className="bottomText tshirtBottomText">
                     <h1></h1>
+                    <p className="imageKeyWords">building on compass idea, adding shapes on NSEW of iconic points of reference along the river dee e.g. flagpoles, the motorway bridge</p>
                 </div>
             </div>
 
             <div class="iteration3 boxLayout">
-                <div className="topText tshirtTopText">
+                <div className="topText textWidth">
                     <h1>3</h1>
                     <h1></h1>
                 </div>
                 <img className="ldsResponsive" src= {tshirt2} alt='anniversaryBall'/>
                 <div className="bottomText tshirtBottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">developing consistent branding across events for Royal Chester</p>
+                    <p className="imageKeyWords">experimenting with compass places less explicitly writter</p>
                 </div>
             </div>
 
             <div class="iteration4 boxLayout">
-                <div className="topText tshirtTopText">
+                <div className="topText textWidth">
                     <h1>4</h1>
                     <h1></h1>
                 </div>
                 <img className="ldsResponsive" src= {tshirt3} alt='anniversaryBall'/>
                 <div className="bottomText tshirtBottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">developing consistent branding across events for Royal Chester</p>
+                    <p></p>
                 </div>
             </div>
         </div>

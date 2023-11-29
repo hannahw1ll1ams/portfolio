@@ -197,10 +197,30 @@
 }
   
 .tshirtBottomText {
-    justify-self: flex-end;
+    /* justify-self: flex-end; */
     text-align: start;
+    width: 90%;
 }
 
-.tshirtTopText {
-    text-align: start;
+.textWidth {
+    /* text-align: start; */
+    /* display: flex;
+    justify-content: space-between; */
+    width: 95%;
 }
+
+/* Styles for responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .finalTshirtContainer {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .finalTshirtContainer {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
