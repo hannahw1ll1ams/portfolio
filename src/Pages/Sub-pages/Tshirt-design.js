@@ -8,6 +8,7 @@ import tshirt4 from '../../images/rowing/tshirt-10.png'
 
 
 import '../../css/Sub-pages/tshirt-design.css'
+import '../../css/text-shared.css'
 
 export default function TshirtDesignPage() {
     return (

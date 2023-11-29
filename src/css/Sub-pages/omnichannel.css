@@ -2,12 +2,24 @@
     background-color: #ECEFF8;
 }
 
-.omnichannelWidth {
-    width: 70%;
-}
-
 .description {
     background-color: white;
     padding: 30px;
     font-family: "Regular";
 }
+
+.omnichannelWidth {
+    width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+    .omnichannelWidth {
+        width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .omnichannelWidth {
+        width: 90%;
+    }
+  }

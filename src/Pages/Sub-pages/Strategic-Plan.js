@@ -5,6 +5,7 @@ import version2 from '../../images/rowing/strategicPlan2.png'
 import planPillars from '../../images/rowing/planPillars.png'
 
 import '../../css/Sub-pages/strategic-plan.css'
+import '../../css/text-shared.css'
 
 export default function StrategicPlanPage() {
     return (
@@ -14,7 +15,7 @@ export default function StrategicPlanPage() {
                     <h1>STRATEGIC PLAN</h1>
                     <h1>2022</h1>
                 </div>
-                <img className="portraitWidth" src= {finalVersion} alt='finalVersion'/>
+                <img className="strategicTallImageWidth" src= {finalVersion} alt='finalVersion'/>
                 <div className="bottomText">
                     <h1></h1>
                     <p className="imageKeyWords">final iteration / communication / clean / procreate / vectors</p>
@@ -29,7 +30,7 @@ export default function StrategicPlanPage() {
                     <h1></h1>
                     <h1>2022</h1>
                 </div>
-                <img className="portraitWidth" src= {version1} alt='version1'/>
+                <img className="strategicTallImageWidth" src= {version1} alt='version1'/>
                 <div className="bottomText">
                     <h1></h1>
                     <p className="imageKeyWords">hand drawn style</p>
@@ -41,7 +42,7 @@ export default function StrategicPlanPage() {
                     <h1></h1>
                     <h1>2022</h1>
                 </div>
-                <img className="portraitWidth" src= {version2} alt='version2'/>
+                <img className="strategicTallImageWidth" src= {version2} alt='version2'/>
                 <div className="bottomText">
                     <h1></h1>
                     <p className="imageKeyWords">playing with perspective</p>
@@ -53,7 +54,7 @@ export default function StrategicPlanPage() {
                     <h1>PILLARS</h1>
                     <h1>2022</h1>
                 </div>
-                <img className="landscapeWidth" src= {planPillars} alt='version1'/>
+                <img className="strategicWideImageWidth" src= {planPillars} alt='version1'/>
                 <div className="bottomText">
                     <h1></h1>
                     <p className="imageKeyWords">member's values</p>

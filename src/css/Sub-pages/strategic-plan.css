@@ -1,11 +1,3 @@
-.portraitWidth {
-    width: 40%;
-}
-
-.landscapeWidth {
-    width: 70%;
-}
-
 .version1Container {
     background-color: #CBCED8;
 }
@@ -21,3 +13,29 @@
 .finalVersionContainer {
     background-color: #EEEEEE;
 }
+
+.strategicTallImageWidth {
+    width: 50%;
+}
+
+.strategicWideImageWidth {
+    width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+    .strategicTallImageWidth {
+        width: 70%;
+    }
+    .strategicWideImageWidth {
+        width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .strategicTallImageWidth {
+        width: 80%;
+    }
+    .strategicWideImageWidth {
+        width: 80%;
+    }
+  }

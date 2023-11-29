@@ -4,9 +4,9 @@ import procrastinationOutline from '../../images/illustrations/procrastinationOu
 import procrastinationColour from '../../images/illustrations/procrastinationColour.PNG'
 import hugging from '../../images/illustrations/hugging.PNG'
 import ines from '../../images/illustrations/ines.jpg'
-// import ines from '../../images/illustrations/ines.jpg'
 
 import '../../css/Sub-pages/illustrations.css'
+import '../../css/text-shared.css'
 
 export default function IllustrationsPage() {
     return (

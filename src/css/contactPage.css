@@ -1,63 +1,70 @@
-/* .outerContainer {
-    height: 625px;
-    background: #B6B8AB;
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    /* height: 100%; */
+    grid-row-gap: 35%;
 }
 
-.contactContainer {
-    height: 625px;
+.nameLocation { grid-area: 3 / 3 / 4 / 4; }
+.email { grid-area: 5 / 1 / 6 / 2; }
+.github { grid-area: 5 / 3 / 6 / 4; }
+.cv { grid-area: 5 / 5 / 6 / 6; }
+
+.alignment {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}*/
-
-.mediaLink {
-   text-align: start;
-} 
-
-.contactContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 750px;
-    align-items: center;
+    /* height: 400px; */
+    
+    text-align: start;
+    padding: 20px 0px 20px 20px;
 }
 
 .nameLocation {
-    height: 400px;
     font-family: "Medium";
-    text-align: start;
-    padding: 20px;
 }
 
-.info {
-    padding: 20px;
-    background-color: white;
-    font-family: "Medium";
-    font-size: 20px;
-    width: 300px;
-    height: 150px;
+.contactText {
+    font-family: "Regular";
 }
 
-.horizontal {
-    display: flex;
+@media screen and (max-width: 900px) {
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 12px;
+        }
+        
+        .nameLocation { grid-area: 1 / 1 / 2 / 2; }
+        .email { grid-area: 2 / 1 / 3 / 2; }
+        .github { grid-area: 3 / 1 / 4 / 2; }
+        .cv { grid-area: 4 / 1 / 5 / 2; }
+
+        .alignment {
+            padding: 30px;
+        }
 }
 
-.contactInformation {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-self: flex-end;
+@media screen and (max-height: 870px) {
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 12px;
+        }
+        
+        .nameLocation { grid-area: 1 / 1 / 2 / 2; }
+        .email { grid-area: 2 / 1 / 3 / 2; }
+        .github { grid-area: 3 / 1 / 4 / 2; }
+        .cv { grid-area: 4 / 1 / 5 / 2; }
+
+        .alignment {
+            padding: 30px;
+        }
 }
 
-.block {
-    text-align: start;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    padding: 50px;
-    width: 250px;
-}
-
-.alignment {
-    text-align: start;
-}

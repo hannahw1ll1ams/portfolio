@@ -1,5 +1,6 @@
 import React from "react";
 import '../../css/Sub-pages/app-design.css'
+import '../../css/text-shared.css'
 import requestsLogo from '../../images/appDesign/requestsAppLogo.png'
 import selfServeLogo from '../../images/appDesign/selfServeLogo.png'
 
