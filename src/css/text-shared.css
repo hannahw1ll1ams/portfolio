@@ -4,6 +4,7 @@
     padding: 30px 30px 80px 30px;
     font-size: 12px;
     font-family: 'Medium';
+    text-align: start;
 }
 
 .bottomText {
@@ -19,3 +20,27 @@
     font-family: 'Italic';
     font-weight: 100;
 }
+
+@media screen and (max-width: 800px) {
+    .topText {
+        font-size: 12px;
+    }
+    .bottomText {
+        font-size: 10px;
+    }
+    .imageKeyWords {
+        font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topText {
+        font-size: 10px;
+    }
+    .bottomText {
+        font-size: 10px;
+    }
+    .imageKeyWords {
+        font-size: 14px;
+    }
+  }
