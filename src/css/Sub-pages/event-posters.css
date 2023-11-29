@@ -1,21 +1,3 @@
-.topText {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 30px 80px 30px;
-}
-
-.bottomText {
-    display: flex;
-    justify-content: space-between;
-    padding: 80px 30px 30px 30px;
-}
-
-.imageKeyWords {
-    font-size: 22px;
-    font-family: 'Italic';
-    font-weight: 100;
-}
-
 .anniversaryBallContainer {
     background-color: #E3D6A5;
 }
@@ -24,6 +6,28 @@
     background-color: #E4E7ED;
 }
 
-.singleImageWidth {
+.tallImageWidth {
     width: 60%;
 }
+
+.wideImageWidth {
+    width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+    .tallImageWidth {
+        width: 70%;
+    }
+    .wideImageWidth {
+        width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .tallImageWidth {
+        width: 80%;
+    }
+    .wideImageWidth {
+        width: 80%;
+    }
+  }

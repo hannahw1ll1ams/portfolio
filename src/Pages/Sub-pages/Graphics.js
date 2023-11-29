@@ -1,5 +1,7 @@
 import React from "react";
 import '../../css/Sub-pages/graphics.css'
+import '../../css/text-shared.css'
+
 import infographic from '../../images/infographic/salsaAsPoliticalSpeech.png'
 import getWell from '../../images/infographic/getWellGraphic.png'
 

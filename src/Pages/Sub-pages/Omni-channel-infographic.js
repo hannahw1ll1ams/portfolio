@@ -1,10 +1,10 @@
 import React from "react";
 import '../../css/Sub-pages/omnichannel.css'
+import '../../css/text-shared.css'
 import omnichannelGraphic from '../../images/infographic/omnichannel-06.png'
 
 export default function OmnichannelInfographicPage() {
     return (
-        // <>
         <div className="omnichannelContainer">
                 <div className="topText">
                     <h1>‘OMNI-CHANNEL’ RETAIL VISION INFOGRAPHIC</h1>
@@ -19,6 +19,5 @@ export default function OmnichannelInfographicPage() {
                     An imagined omni-channel shopping experience underpinned with a unified basket and central source of truth for Customer, Product and Orders.
                 </p>
         </div>
-        // </>
     );
 }

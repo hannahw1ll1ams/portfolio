@@ -5,6 +5,7 @@ import version2 from '../../images/rowing/strategicPlan2.png'
 import planPillars from '../../images/rowing/planPillars.png'
 
 import '../../css/Sub-pages/strategic-plan.css'
+import '../../css/text-shared.css'
 
 export default function StrategicPlanPage() {
     return (

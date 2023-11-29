@@ -1,0 +1,21 @@
+.topText {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 80px 30px;
+    font-size: 12px;
+    font-family: 'Medium';
+}
+
+.bottomText {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 30px 30px;
+    font-size: 10px;
+    font-family: 'Medium';
+}
+
+.imageKeyWords {
+    font-size: 20px;
+    font-family: 'Italic';
+    font-weight: 100;
+}

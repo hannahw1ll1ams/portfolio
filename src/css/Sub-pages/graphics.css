@@ -1,21 +1,3 @@
-.topText {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 30px 80px 30px;
-}
-
-.bottomText {
-    display: flex;
-    justify-content: space-between;
-    padding: 80px 30px 30px 30px;
-}
-
-.imageKeyWords {
-    font-size: 22px;
-    font-family: 'Italic';
-    font-weight: 100;
-}
-
 .salsaSpeechContainer {
     background-color: #ECE2DD;
 }
