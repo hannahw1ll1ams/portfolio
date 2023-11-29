@@ -4,10 +4,21 @@
 .logoImageContainer {
     display: flex;
     justify-content: center;
-    height: 500px;
 }
 
 .appLogoDesign {
-    height: 500px;  
+    width: 33%;
     padding: 0px 40px;
 }
+
+@media screen and (max-width: 800px) {
+    .appLogoDesign {
+        padding: 0px 30px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .appLogoDesign {
+        padding: 0px 10px;
+    }
+  }

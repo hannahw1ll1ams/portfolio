@@ -62,20 +62,6 @@ export default function IllustrationsPage() {
                      <p className="imageKeyWords">first live sketch</p>
                 </div>
             </div>
-
-
-                {/* <div className="topText">
-                    <h1></h1>
-                    <h1>2023</h1>
-                </div>
-                <div className="imageContainer">
-                    <img className="procrastination" src= {procrastinationOutline} alt='procrastinationOutline'/>
-                    <img className="procrastination" src= {procrastinationColour} alt='loprocrastinationColourgo'/>
-                </div>
-                <div className="bottomText">
-                    <h1></h1>
-                    <p className="imageKeyWords">procreate / illustration</p>
-                </div> */}
         </div>
 
         <div className="whiteContainer">
@@ -83,7 +69,7 @@ export default function IllustrationsPage() {
                     <h1></h1>
                     <h1>2022</h1>
                 </div>
-                <img className="liveSketchSingleImage" src= {hugging} alt='hugging'/>
+                <img className="pictureSketch" src= {hugging} alt='hugging'/>
                 <div className="bottomText">
                     <h1></h1>
                     <p className="imageKeyWords">picture sketch</p>
