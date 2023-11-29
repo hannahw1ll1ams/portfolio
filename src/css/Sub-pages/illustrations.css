@@ -2,28 +2,22 @@
     background-color: white;
 }
 .liveSketchSingleImage {
-    /* height: 700px; */
-    width: 50%;
+    width: 33%;
+}
+.pictureSketch {
+    width: 25%;
 }
 
 .procrastinationContainer {
     background-color: #EFEAEA;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 .imageContainer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* height: 700px; */
-    /* width: 50%; */
 }
 
 .procrastination {
-    /* height: 700px;   */
-
-    width: 40%;
+    width: 33%;
     padding: 0px 40px;
 }
 
@@ -33,13 +27,37 @@
 }
 .twoRunnersContainer {
     background-color: #FFE4E5;
-    width: 70%;
+    width: 60%;
 }
 .inesContainer {
     background-color: #CDABAB;
-    width: 70%;
+    width: 60%;
 }
 
 .halfSingleImage {
-    width: 70%;
+    width: 58%;
 }
+
+@media screen and (max-width: 800px) {
+    .procrastination {
+        padding: 0px 30px;
+    }
+    .liveSketchSingleImage {
+        width: 50%;
+    }
+    .pictureSketch {
+        width: 38%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .procrastination {
+        padding: 0px 10px;
+    }
+    .liveSketchSingleImage {
+        width: 50%;
+    }
+    .pictureSketch {
+        width: 50%;
+    }
+  }
