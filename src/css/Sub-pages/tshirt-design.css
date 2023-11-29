@@ -1,10 +1,10 @@
-.tshirtContainer {
+/* .tshirtContainer {
     background-color: #BCCBD0;
 }
 .tshirtImageContainer {
     display: flex;
     justify-content: center;
-    height: 500px;
+    
 }
 
 .appLogoDesign {
@@ -23,5 +23,204 @@
 
 .logoContainer {
     background-color: white;
-    width: 700%;
+    width: 100%;
+} */
+
+
+/* aa */
+
+/* .postersTallImageWidth {
+    width: 50%;
 }
+
+.postersWideImageWidth {
+    width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+    .postersTallImageWidth {
+        width: 70%;
+    }
+    .postersWideImageWidth {
+        width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .postersTallImageWidth {
+        width: 80%;
+    }
+    .postersWideImageWidth {
+        width: 80%;
+    }
+  } */
+
+  /* .tshirtContainer {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "ldsTogether ldsTogether"
+      "iteration1 iteration2"
+      "iteration3 iteration4";
+      background-color: white;
+      height: 962px;;
+  }
+  
+  .ldsTogether {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". .";
+    grid-area: ldsTogether;
+  }
+  
+  .iteration1 { grid-area: iteration1; }
+  
+  .iteration2 { grid-area: iteration2; }
+  
+  .iteration3 { grid-area: iteration3; }
+  
+  .iteration4 { grid-area: iteration4; }
+  
+  .lds {
+    width: 80%;
+  }
+
+.ldsTogether {
+    background-color: #BCCBD0;
+}
+
+.tshirtResponsive {
+    width: 80%;
+  }
+
+  .smallerImage {
+    width: 70%;
+  }
+
+.iterations {
+    background-color: white;
+} */
+
+/* @media screen and (max-width: 800px) {
+    .container {  display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+      }
+      
+      .ldsTogether { grid-area: 1 / 1 / 3 / 2; }
+      
+      .iteration1 { grid-area: 2 / 1 / 3 / 2; }
+      
+      .iteration2 { grid-area: 3 / 1 / 4 / 2; }
+      
+      .iteration3 { grid-area: 4 / 1 / 5 / 2; }
+      
+      .iteration4 { grid-area: 5 / 1 / 6 / 2; }
+      
+  } */
+  
+  /* @media screen and (max-width: 600px) {
+    .container {  display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+      }
+      
+      .ldsTogether { grid-area: 1 / 1 / 3 / 2; }
+      
+      .iteration1 { grid-area: 2 / 1 / 3 / 2; }
+      
+      .iteration2 { grid-area: 3 / 1 / 4 / 2; }
+      
+      .iteration3 { grid-area: 4 / 1 / 5 / 2; }
+      
+      .iteration4 { grid-area: 5 / 1 / 6 / 2; }
+      
+  } */
+
+
+
+.finalTshirtContainer {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "finalLogos finalLogos"
+      "iteration1 iteration2"
+      "iteration3 iteration4";
+  }
+  
+.finalLogos { 
+    grid-area: finalLogos; 
+    background-color: #BCCBD0;
+    width: 100%;
+}
+.ldsResponsive {
+    width: 80%;
+    /* padding: 50px; */
+  }
+
+  .boxLayout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .iteration1 { 
+    grid-area: iteration1; 
+    background-color: white;
+    }
+  
+  .iteration2 { 
+    grid-area: iteration2; 
+    background-color: white;
+}
+  
+  .iteration3 { 
+    grid-area: iteration3; 
+    background-color: white;
+}
+  
+  .iteration4 { 
+    grid-area: iteration4; 
+    background-color: white;
+}
+  
+.tshirtBottomText {
+    /* justify-self: flex-end; */
+    text-align: start;
+    width: 90%;
+}
+
+.textWidth {
+    /* text-align: start; */
+    /* display: flex;
+    justify-content: space-between; */
+    width: 95%;
+}
+
+/* Styles for responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .finalTshirtContainer {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .finalTshirtContainer {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

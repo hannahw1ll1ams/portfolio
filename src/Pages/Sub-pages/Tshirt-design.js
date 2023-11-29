@@ -1,6 +1,5 @@
 import React from "react";
-import frontLogo from '../../images/rowing/ldsLogoFront.png'
-import backLogo from '../../images/rowing/ldsLogoBack.png'
+import ldsTogether from '../../images/rowing/lds-together.png'
 import tshirt1 from '../../images/rowing/tshirt-07.png'
 import tshirt2 from '../../images/rowing/tshirt-08.png'
 import tshirt3 from '../../images/rowing/tshirt-09.png'
@@ -12,77 +11,90 @@ import '../../css/text-shared.css'
 
 export default function TshirtDesignPage() {
     return (
-    <>
-        <div className="tshirtContainer">
-            <div className="topText">
-                <h1>LONG DISTANCE SCULLS EVENT T-SHIRT</h1>
-                <h1>2022</h1>
+        // <div className="tshirtContainer">
+        //                 <div class="ldsTogether">
+        //         <img className="tshirtResponsive lds" src= {ldsTogether} alt='ldsTogether'/>  
+        //     </div>
+        //     <div className="iterations">
+        //         <div class="iteration1">
+        //         <img className="tshirtResponsive" src= {tshirt1} alt='ines'/>
+        //         </div>
+
+        //         <div class="iteration2">
+        //         <img className="tshirtResponsive" src= {tshirt4} alt='ines'/>
+        //         </div>
+
+        //         <div class="iteration3">
+        //         <img className="tshirtResponsive" src= {tshirt2} alt='ines'/>
+        //         </div>
+
+        //         <div class="iteration4">
+        //         <img className="tshirtResponsive" src= {tshirt3} alt='ines'/>
+        //         </div>
+        //     </div>
+        // </div>
+
+        <div class="finalTshirtContainer">
+
+            <div class="finalLogos boxLayout">
+                <div className="topText textWidth">
+                    <h1>LONG DISTANCE SCULLS EVENT T-SHIRT DESIGN</h1>
+                    <h1>2022</h1>
+                </div>
+                <img className="ldsResponsive" src= {ldsTogether} alt='ldsTogether'/>               
+                <div className="bottomText tshirtBottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">final design - monotone, front logo is a negative space reverse of the back logo</p>
+                </div>
             </div>
-            <div className="imageDescription">
-                <p>front</p>
-                <p>back</p>
+
+            <div class="iteration1 boxLayout">
+                <div className="topText textWidth">
+                    <h1>1</h1>
+                    <h1></h1>
+                </div>
+                <img className="ldsResponsive" src= {tshirt1} alt='anniversaryBall'/>
+                <div className="bottomText tshirtBottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">building on royal’s crest, adding boat that like compass points</p>
+                </div>
             </div>
-            <div className="tshirtImageContainer">
-                <img className="appLogoDesign" src= {frontLogo} alt='procrastinationOutline'/>
-                <img className="appLogoDesign" src= {backLogo} alt='loprocrastinationColourgo'/>
+
+            <div class="iteration2 boxLayout">
+                <div className="topText textWidth">
+                    <h1>2</h1>
+                    <h1></h1>
+                </div>
+                <img className="ldsResponsive" src= {tshirt4} alt='anniversaryBall'/>
+                <div className="bottomText tshirtBottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">building on compass idea, adding shapes on NSEW of iconic points of reference along the river dee e.g. flagpoles, the motorway bridge</p>
+                </div>
             </div>
-            <div className="bottomText">
-                <h1></h1>
-                <p className="imageKeyWords">final design - monotone, front logo is a negative space reverse of the back logo</p>
+
+            <div class="iteration3 boxLayout">
+                <div className="topText textWidth">
+                    <h1>3</h1>
+                    <h1></h1>
+                </div>
+                <img className="ldsResponsive" src= {tshirt2} alt='anniversaryBall'/>
+                <div className="bottomText tshirtBottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">experimenting with compass places less explicitly writter</p>
+                </div>
+            </div>
+
+            <div class="iteration4 boxLayout">
+                <div className="topText textWidth">
+                    <h1>4</h1>
+                    <h1></h1>
+                </div>
+                <img className="ldsResponsive" src= {tshirt3} alt='anniversaryBall'/>
+                <div className="bottomText tshirtBottomText">
+                    <h1></h1>
+                    <p></p>
+                </div>
             </div>
         </div>
-
-        <div className="portugalContainer">
-            <div className="logoContainer">
-                <div className="topText">
-                     <h1>1</h1>
-                       <h1></h1>
-                </div>
-                <img className="singleImage" src= {tshirt1} alt='ines'/>
-                <div className="bottomText">
-                    <h1></h1>
-                     <p className="imageKeyWords">procreate / illustration</p>
-                </div>
-            </div>
-
-            <div className="logoContainer">
-                <div className="topText">
-                     <h1>2</h1>
-                       <h1></h1>
-                </div>
-                <img className="singleImage" src= {tshirt4} alt='ines'/>
-                <div className="bottomText">
-                    <h1></h1>
-                     <p className="imageKeyWords">first live sketch</p>
-                </div>
-            </div>
-        </div>
-
-        <div className="portugalContainer">
-            <div className="logoContainer">
-                <div className="topText">
-                     <h1>3</h1>
-                       <h1></h1>
-                </div>
-                <img className="singleImage" src= {tshirt2} alt='ines'/>
-                <div className="bottomText">
-                    <h1></h1>
-                     <p className="imageKeyWords">procreate / illustration</p>
-                </div>
-            </div>
-
-            <div className="logoContainer">
-                <div className="topText">
-                     <h1>4</h1>
-                       <h1></h1>
-                </div>
-                <img className="singleImage" src= {tshirt3} alt='ines'/>
-                <div className="bottomText">
-                    <h1></h1>
-                     <p className="imageKeyWords">first live sketch</p>
-                </div>
-            </div>
-        </div>
-    </>
-    );
-}
+    )
+};
