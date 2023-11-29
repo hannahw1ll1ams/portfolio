@@ -2,14 +2,12 @@
     display: flex;
     justify-content: space-between;
     padding: 30px 30px 80px 30px;
-    /* background-color: #fd1414; */
 }
 .bottomText {
     display: flex;
     justify-content: space-between;
     padding: 80px 30px 30px 30px;
 }
-
 .imageKeyWords {
     font-size: 22px;
     font-family: 'Italic';
