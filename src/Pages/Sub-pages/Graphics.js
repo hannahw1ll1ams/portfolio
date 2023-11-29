@@ -13,7 +13,7 @@ export default function GraphicsPage() {
                     <h1>SALSA AS POLITICAL SPEECH</h1>
                     <h1>2017</h1>
                 </div>
-                <img className="singleImageWidth" src= {infographic} alt='infographic'/>
+                <img className="salsaImageWidth" src= {infographic} alt='infographic'/>
                 <div className="bottomText">
                     <h1></h1>
                     <p className="imageKeyWords">data / translation / deconstruction</p>
@@ -27,7 +27,7 @@ export default function GraphicsPage() {
                     <h1>KEEPING OUR TOES CROSSED</h1>
                     <h1>2023</h1>
                 </div>
-                <img className="singleImageWidth" src= {getWell} alt='getWell'/>
+                <img className="toesImageWidth" src= {getWell} alt='getWell'/>
                 <div className="bottomText">
                     <h1></h1>
                     <p className="imageKeyWords">card design / get well</p>

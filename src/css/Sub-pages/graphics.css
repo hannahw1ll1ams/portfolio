@@ -2,10 +2,34 @@
     background-color: #ECE2DD;
 }
 
-.singleImageWidth {
-    width: 60%;
-}
-
 .keepingToesCrossed {
     background-color: #767CA0;
 }
+
+.salsaImageWidth {
+    width: 60%;
+}
+
+.toesImageWidth {
+    width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .salsaImageWidth {
+        width: 80%;
+    }
+    
+    .toesImageWidth {
+        width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .salsaImageWidth {
+        width: 90%;
+    }
+    
+    .toesImageWidth {
+        width: 80%;
+    }
+  }
