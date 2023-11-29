@@ -13,7 +13,7 @@ export default function EventPostersPage() {
                     <h1>EVENT POSTERS</h1>
                     <h1>2022</h1>
                 </div>
-                <img className="tallImageWidth" src= {springBall} alt='anniversaryBall'/>
+                <img className="postersTallImageWidth" src= {springBall} alt='anniversaryBall'/>
                 <div className="bottomText">
                     <h1></h1>
                     <p className="imageKeyWords">developing consistent branding across events for Royal Chester</p>
@@ -25,7 +25,7 @@ export default function EventPostersPage() {
                     <h1></h1>
                     <h1>2023</h1>
                 </div>
-                <img className="wideImageWidth" src= {anniversaryBall} alt='springBall'/>
+                <img className="postersWideImageWidth" src= {anniversaryBall} alt='springBall'/>
                 <div className="bottomText">
                     <h1></h1>
                     <p className="imageKeyWords"></p>

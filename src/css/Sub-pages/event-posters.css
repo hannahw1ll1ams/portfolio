@@ -6,28 +6,28 @@
     background-color: #E4E7ED;
 }
 
-.tallImageWidth {
-    width: 60%;
+.postersTallImageWidth {
+    width: 50%;
 }
 
-.wideImageWidth {
+.postersWideImageWidth {
     width: 60%;
 }
 
 @media screen and (max-width: 800px) {
-    .tallImageWidth {
+    .postersTallImageWidth {
         width: 70%;
     }
-    .wideImageWidth {
+    .postersWideImageWidth {
         width: 70%;
     }
   }
   
   @media screen and (max-width: 600px) {
-    .tallImageWidth {
+    .postersTallImageWidth {
         width: 80%;
     }
-    .wideImageWidth {
+    .postersWideImageWidth {
         width: 80%;
     }
   }
