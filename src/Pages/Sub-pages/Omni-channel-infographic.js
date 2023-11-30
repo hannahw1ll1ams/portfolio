@@ -16,7 +16,7 @@ export default function OmnichannelInfographicPage() {
                     <p className="imageKeyWords">vector drawing / collaboration</p>
                 </div>
                 <p className="description">
-                    An imagined omni-channel shopping experience underpinned with a unified basket and central source of truth for Customer, Product and Orders.
+                    Illustrating a imagined omni-channel shopping experience underpinned with a unified basket and central source of truth for Customer, Product and Orders.
                 </p>
         </div>
     );

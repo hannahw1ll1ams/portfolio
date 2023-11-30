@@ -4,6 +4,8 @@ import procrastinationOutline from '../../images/illustrations/procrastinationOu
 import procrastinationColour from '../../images/illustrations/procrastinationColour.PNG'
 import hugging from '../../images/illustrations/hugging.PNG'
 import ines from '../../images/illustrations/ines.jpg'
+import runners from '../../images/illustrations/runners.PNG'
+
 
 import '../../css/Sub-pages/illustrations.css'
 import '../../css/text-shared.css'
@@ -44,7 +46,7 @@ export default function IllustrationsPage() {
                      <h1></h1>
                        <h1>2021</h1>
                 </div>
-                <img className="halfSingleImage" src= {ines} alt='ines'/>
+                <img className="halfSingleImage" src= {runners} alt='runners'/>
                 <div className="bottomText">
                     <h1></h1>
                      <p className="imageKeyWords">experimenting with styles</p>

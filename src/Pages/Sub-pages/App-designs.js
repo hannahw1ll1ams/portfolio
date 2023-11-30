@@ -4,23 +4,150 @@ import '../../css/text-shared.css'
 import requestsLogo from '../../images/appDesign/requestsAppLogo.png'
 import selfServeLogo from '../../images/appDesign/selfServeLogo.png'
 
+import selfServeApp from '../../images/appDesign/self-serve.png'
+import footwearApp from '../../images/appDesign/footwear.png'
+import requestsApp from '../../images/appDesign/requests.png'
+
+import selfserve1 from '../../images/appDesign/otherApps-04.png'
+import selfserve2 from '../../images/appDesign/otherApps-05.png'
+import selfserve3 from '../../images/appDesign/otherApps-06.png'
+import selfserve4 from '../../images/appDesign/otherApps-07.png'
+
+import frapp1 from '../../images/appDesign/frapp-08.png'
+import frapp2 from '../../images/appDesign/frapp-09.png'
+import frapp3 from '../../images/appDesign/frapp-10.png'
+
+
+
 export default function AppDesignsPage() {
     return (
         <>
-        <div className="appDesignContainer">
+            <div className="appDesignContainer">
+                    <div className="topText">
+                        <h1>APP DESIGN</h1>
+                        <h1>2023</h1>
+                    </div>
+                    <div className="logoImageContainer">
+                        <img className="appLogoDesign" src= {selfServeLogo} alt='requselfServeLogoestsLogo'/>
+                        <img className="appLogoDesign" src= {requestsLogo} alt='requestsLogo'/>
+                    </div>
+                    <div className="bottomText">
+                        <h1></h1>
+                        <p className="imageKeyWords">vector drawing / app logo design</p>
+                    </div>
+            </div>
+            <p className="description">
+                Two logos for two apps. The left is the customer facing Self-Serve, right is the store staff's Requests app.
+            </p>
+
+            <div className="omnichannelContainer">
                 <div className="topText">
-                    <h1>APP DESIGN</h1>
+                    <h1>CLICK AND COLLECT (SELF-SERVE)</h1>
                     <h1>2023</h1>
                 </div>
-                <div className="logoImageContainer">
-                    <img className="appLogoDesign" src= {requestsLogo} alt='requestsLogo'/>
-                    <img className="appLogoDesign" src= {selfServeLogo} alt='selfServeLogo'/>
-                </div>
+                <img className="omnichannelWidth" src= {selfServeApp} alt='omnichannelGraphic'/>
                 <div className="bottomText">
-                    <h1>PROCESS</h1>
-                    <p className="imageKeyWords">vector drawing / app logo design</p>
+                    <h1></h1>
+                    <p className="imageKeyWords">worked with marketing to keep app in line with footasylum's new branding, mainly the green pixel.</p>
                 </div>
-        </div>
+            </div>
+
+            <div className="omnichannelContainer">
+                <div className="topText">
+                    <h1>FOOTWEAR (SELF-SERVE)</h1>
+                    <h1>2023</h1>
+                </div>
+                <img className="omnichannelWidth" src= {footwearApp} alt='omnichannelGraphic'/>
+                <div className="bottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">re-used components between app's to make sure thye all had the same visual language.</p>
+                </div>
+                <p className="description">
+                    Self-Serve is a customer facing app offering multiple services including click and collect, fitting room and footwear, where the customer can request different sizes and see in real time the status of their requests as staff interact with them on their requests app. 
+                </p>
+            </div>
+
+            <div className="omnichannelContainer">
+                <div className="topText">
+                    <h1>REQUESTS</h1>
+                    <h1>2023</h1>
+                </div>
+                <img className="omnichannelWidth" src= {requestsApp} alt='omnichannelGraphic'/>
+                <div className="bottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">colour distinguising between shout request status's for different products</p>
+                </div>
+                <p className="description">
+                Requests is a staff app which receives notifications from the Self-Serve app for the click and collect orders and staff can then interact with the requests.
+                </p>
+            </div>
+
+            <div className="omnichannelContainer">
+                <div className="topText">
+                    <h1>FRAPP</h1>
+                    <h1>2019-22</h1>
+                </div>
+                <img className="omnichannelWidth" src= {frapp1} alt='frapp1'/>
+                <div className="bottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">frapp</p>
+                </div>
+            </div>
+
+            <div className="omnichannelContainer">
+                <img className="omnichannelWidth" src= {frapp2} alt='frapp2'/>
+                <div className="bottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">vector drawing / collaboration</p>
+                </div>
+            </div>
+
+            <div className="omnichannelContainer">
+                <img className="omnichannelWidth" src= {frapp3} alt='frapp3'/>
+                <div className="bottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">vector drawing / collaboration</p>
+                </div>
+                <p className="description">
+                    Frapp. 
+                </p>
+            </div>
+
+            <div className="omnichannelContainer">
+                <div className="topText">
+                    <h1>SEVENSTORE (IN-HOUSE)</h1>
+                    <h1>2023</h1>
+                </div>
+                <img className="omnichannelWidth" src= {selfserve3} alt='omnichannelGraphic'/>
+                <div className="bottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">vector drawing / collaboration</p>
+                </div>
+            </div>
+            <div className="omnichannelContainer">
+                <img className="omnichannelWidth" src= {selfserve4} alt='omnichannelGraphic'/>
+                <div className="bottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">vector drawing / collaboration</p>
+                </div>
+            </div>
+            <div className="omnichannelContainer">
+                <img className="omnichannelWidth" src= {selfserve1} alt='omnichannelGraphic'/>
+                <div className="bottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">vector drawing / collaboration</p>
+                </div>
+            </div>
+            <div className="omnichannelContainer">
+                <img className="omnichannelWidth" src= {selfserve2} alt='omnichannelGraphic'/>
+                <div className="bottomText">
+                    <h1></h1>
+                    <p className="imageKeyWords">vector drawing / collaboration</p>
+                </div>
+                <p className="description">
+                    SEVEN. 
+                </p>
+            </div>
         </>
     );
 }

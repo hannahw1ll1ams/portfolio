@@ -70,7 +70,7 @@ export default function PortfolioPage() {
             <Link to='/portfolio/graphics'>
               <img className="responsive img__img padding" src= {salsaGraphic} alt='salsaGraphic'/>
               <div class="img__description_layer">
-                <p class="img__description">GRAPHICS</p>
+                <p class="img__description">MISCELLANEOUS</p>
               </div>
             </Link>
           </div>

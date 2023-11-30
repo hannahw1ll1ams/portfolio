@@ -44,7 +44,7 @@ export default function TshirtDesignPage() {
                 <img className="ldsResponsive" src= {tshirt4} alt='anniversaryBall'/>
                 <div className="bottomText tshirtBottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">building on compass idea, adding shapes on NSEW of iconic places of reference along the river dee e.g. flagpoles, the blue bridge</p>
+                    <p className="imageKeyWords">building on compass idea, adding references on NSEW of iconic places along the river dee e.g. flagpoles, the blue bridge</p>
                 </div>
             </div>
 
@@ -56,7 +56,7 @@ export default function TshirtDesignPage() {
                 <img className="ldsResponsive" src= {tshirt2} alt='anniversaryBall'/>
                 <div className="bottomText tshirtBottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">experimenting with compass location points less explicitly conveyed with icons</p>
+                    <p className="imageKeyWords">experimenting with making compass location points less explicitly conveyed with icons</p>
                 </div>
             </div>
 
