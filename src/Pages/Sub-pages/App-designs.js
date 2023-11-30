@@ -78,7 +78,7 @@ export default function AppDesignsPage() {
                     <p className="imageKeyWords">colour distinguising between shout request status's for different products</p>
                 </div>
                 <p className="description">
-                Requests is a staff app which receives notifications from the Self-Serve app for the click and collect orders and staff can then interact with the requests.
+                Requests is a staff app which receives notifications from the Self-Serve app for item size requests and click and collect orders and staff can then interact with the requests.
                 </p>
             </div>
 
@@ -87,29 +87,33 @@ export default function AppDesignsPage() {
                     <h1>FRAPP</h1>
                     <h1>2019-22</h1>
                 </div>
-                <img className="omnichannelWidth" src= {frapp1} alt='frapp1'/>
+                <img className="omnichannelWidth" src= {frapp2} alt='frapp1'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">frapp</p>
+                    <p className="imageKeyWords">login flow / adding products to baskets</p>
                 </div>
             </div>
 
             <div className="omnichannelContainer">
-                <img className="omnichannelWidth" src= {frapp2} alt='frapp2'/>
+                <div className="topText">
+                </div>
+                <img className="omnichannelWidth" src= {frapp1} alt='frapp2'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">vector drawing / collaboration</p>
+                    <p className="imageKeyWords">checkout flow</p>
                 </div>
             </div>
 
             <div className="omnichannelContainer">
+                <div className="topText">
+                </div>
                 <img className="omnichannelWidth" src= {frapp3} alt='frapp3'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">vector drawing / collaboration</p>
+                    <p className="imageKeyWords">delivery / shipping flow</p>
                 </div>
                 <p className="description">
-                    Frapp. 
+                    Frapp is the retail app that originially was created to replace staff radio's to make calls for sizes to be brought to the shop floor. The app allows you to login as either shop floor or store room, create shouts for sizes, then update the shout as it progresses throughout its journey of claimed, sent, cancelled, returned. In subsequent iterations functionality of basket payments, ship to store, returns, loyalty schemes were introduced.
                 </p>
             </div>
 
@@ -121,31 +125,37 @@ export default function AppDesignsPage() {
                 <img className="omnichannelWidth" src= {selfserve3} alt='omnichannelGraphic'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">vector drawing / collaboration</p>
+                    <p className="imageKeyWords">login / search product</p>
                 </div>
             </div>
             <div className="omnichannelContainer">
+            <div className="topText">
+                </div>
                 <img className="omnichannelWidth" src= {selfserve4} alt='omnichannelGraphic'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">vector drawing / collaboration</p>
+                    <p className="imageKeyWords">basket discounts</p>
                 </div>
             </div>
             <div className="omnichannelContainer">
+            <div className="topText">
+                </div>
                 <img className="omnichannelWidth" src= {selfserve1} alt='omnichannelGraphic'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">vector drawing / collaboration</p>
+                    <p className="imageKeyWords">checkout flow with emails and terminal selection</p>
                 </div>
             </div>
             <div className="omnichannelContainer">
+            <div className="topText">
+                </div>
                 <img className="omnichannelWidth" src= {selfserve2} alt='omnichannelGraphic'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">vector drawing / collaboration</p>
+                    <p className="imageKeyWords">shipping / delivery</p>
                 </div>
                 <p className="description">
-                    SEVEN. 
+                    Sevenstore app for in-house use by staff to offer some of the functionalities of Frapp but allowed us to refine and tailor to Seven, in the Sevenstore branding.
                 </p>
             </div>
         </>
