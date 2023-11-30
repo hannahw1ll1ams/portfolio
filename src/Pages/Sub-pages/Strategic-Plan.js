@@ -57,7 +57,7 @@ export default function StrategicPlanPage() {
                 <img className="strategicWideImageWidth" src= {planPillars} alt='version1'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">member's values</p>
+                    <p className="imageKeyWords">member's values / trying to include the diversity of the club</p>
                 </div>
         </div>
        </>

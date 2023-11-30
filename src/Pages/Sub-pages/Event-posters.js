@@ -16,7 +16,7 @@ export default function EventPostersPage() {
                 <img className="postersTallImageWidth" src= {springBall} alt='anniversaryBall'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">developing consistent branding across events for Royal Chester</p>
+                    <p className="imageKeyWords">creating posters and developing a consistent branding for Royal Chester Rowing Club events</p>
                 </div>
         </div>
 
@@ -28,7 +28,7 @@ export default function EventPostersPage() {
                 <img className="postersWideImageWidth" src= {anniversaryBall} alt='springBall'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords"></p>
+                    <p className="imageKeyWords">vector shapes</p>
                 </div>
         </div>
 

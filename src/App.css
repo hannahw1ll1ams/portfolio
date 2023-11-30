@@ -15,3 +15,8 @@ body {
 .fixed {
   overflow: hidden;
 }
+
+
+img {
+  transition: width 2s;
+}

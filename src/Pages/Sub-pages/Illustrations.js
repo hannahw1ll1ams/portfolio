@@ -4,6 +4,8 @@ import procrastinationOutline from '../../images/illustrations/procrastinationOu
 import procrastinationColour from '../../images/illustrations/procrastinationColour.PNG'
 import hugging from '../../images/illustrations/hugging.PNG'
 import ines from '../../images/illustrations/ines.jpg'
+import runners from '../../images/illustrations/runners.PNG'
+
 
 import '../../css/Sub-pages/illustrations.css'
 import '../../css/text-shared.css'
@@ -34,7 +36,7 @@ export default function IllustrationsPage() {
                 </div>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">procreate / illustration</p>
+                    <p className="imageKeyWords">20 minute live sketch using procreate</p>
                 </div>
         </div>
 
@@ -44,10 +46,10 @@ export default function IllustrationsPage() {
                      <h1></h1>
                        <h1>2021</h1>
                 </div>
-                <img className="halfSingleImage" src= {ines} alt='ines'/>
+                <img className="halfSingleImage" src= {runners} alt='runners'/>
                 <div className="bottomText">
                     <h1></h1>
-                     <p className="imageKeyWords">procreate / illustration</p>
+                     <p className="imageKeyWords">experimenting with styles</p>
                 </div>
             </div>
 
@@ -59,7 +61,7 @@ export default function IllustrationsPage() {
                 <img className="halfSingleImage" src= {ines} alt='ines'/>
                 <div className="bottomText">
                     <h1></h1>
-                     <p className="imageKeyWords">first live sketch</p>
+                     <p className="imageKeyWords">developing drawing through layers of pencil sketch, refine, colour, ink</p>
                 </div>
             </div>
         </div>
@@ -72,7 +74,7 @@ export default function IllustrationsPage() {
                 <img className="pictureSketch" src= {hugging} alt='hugging'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">picture sketch</p>
+                    <p className="imageKeyWords">picture sketch / focus on capturing essence of characters</p>
                 </div>
         </div>
 
