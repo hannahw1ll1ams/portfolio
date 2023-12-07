@@ -10,8 +10,12 @@ import '../../css/text-shared.css'
 
 export default function TshirtDesignPage() {
     return (
+        <>
+        <p className="description">
+                asked to create a t-shirt design to sell at the royal chester rowing club's home event, that celebrates the club and the river dee.
+            </p>
         <div class="finalTshirtContainer">
-
+            
             <div class="finalLogos boxLayout">
                 <div className="topText textWidth">
                     <h1>LONG DISTANCE SCULLS EVENT T-SHIRT DESIGN</h1>
@@ -72,5 +76,6 @@ export default function TshirtDesignPage() {
                 </div>
             </div>
         </div>
+        </>
     )
 };

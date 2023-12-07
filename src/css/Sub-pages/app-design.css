@@ -13,10 +13,10 @@
     background-color: #ECEFF8;
 }
 .footwearContainer {
-    background-color: #CBDBCF;
+    background-color: #ECEFF8;
 }
 .requestsContainer {
-    background-color: #EEEEEE;
+    background-color: #CBDBCF;
 }
 .frappContainer {
     background-color: #ECEFF8;
@@ -36,3 +36,6 @@
         padding: 0px 10px;
     }
   }
+
+
+  /* CBDBCF ECEFF8  EEEEEE  ECEFF8 EFEAEA */

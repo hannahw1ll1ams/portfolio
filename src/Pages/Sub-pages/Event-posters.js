@@ -8,6 +8,9 @@ import springBall from '../../images/rowing/springBall.png'
 export default function EventPostersPage() {
     return (
         <>
+        <p className="description">
+            creating posters and developing a consistent branding for Royal Chester Rowing Club events
+        </p>
         <div className="anniversaryBallContainer">
                 <div className="topText">
                     <h1>EVENT POSTERS</h1>
@@ -16,7 +19,7 @@ export default function EventPostersPage() {
                 <img className="postersTallImageWidth" src= {springBall} alt='anniversaryBall'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">creating posters and developing a consistent branding for Royal Chester Rowing Club events</p>
+                    <p className="imageKeyWords"></p>
                 </div>
         </div>
 
@@ -28,7 +31,7 @@ export default function EventPostersPage() {
                 <img className="postersWideImageWidth" src= {anniversaryBall} alt='springBall'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">vector shapes</p>
+                    <p className="imageKeyWords"></p>
                 </div>
         </div>
 
