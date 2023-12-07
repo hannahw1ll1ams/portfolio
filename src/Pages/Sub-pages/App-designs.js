@@ -24,18 +24,21 @@ import frapp3 from '../../images/appDesign/frapp-10.png'
 export default function AppDesignsPage() {
     return (
         <>
+            <p className="description">
+                Designed ux flows, logos, and branding for a number of in-house and customer facing apps.
+            </p>
             <div className="appDesignContainer">
                     <div className="topText">
                         <h1>APP DESIGN</h1>
                         <h1>2023</h1>
                     </div>
                     <div className="logoImageContainer">
-                        <img className="appLogoDesign" src= {requestsLogoRounded} alt='requestsLogo'/>
                         <img className="appLogoDesign" src= {selfServeLogoRounded} alt='selfServeLogo'/>
+                        <img className="appLogoDesign" src= {requestsLogoRounded} alt='requestsLogo'/>
                     </div>
                     <div className="bottomText">
                         <h1></h1>
-                        <p className="imageKeyWords">two logos for two apps. the left is the customer facing Self-Serve, right is the store staff's Requests app.</p>
+                        <p className="imageKeyWords">two logos for two apps. the left is the customer facing Self-Serve which offers multiple services including click and collect, fitting room and footwear, where the customer can request different sizes and see in real time the status of their requests. right is the logo for store staff's Requests app where they then interact with the customer's shouts.</p>
                     </div>
             </div>
 
@@ -61,9 +64,6 @@ export default function AppDesignsPage() {
                     <h1></h1>
                     <p className="imageKeyWords">re-used components between app's to make sure they all had the same visual language.</p>
                 </div>
-                <p className="description">
-                    Self-Serve is a customer facing app offering multiple services including click and collect, fitting room and footwear, where the customer can request different sizes and see in real time the status of their requests as staff interact with them on their requests app. 
-                </p>
             </div>
 
             <div className="requestsContainer">
@@ -76,12 +76,17 @@ export default function AppDesignsPage() {
                     <h1></h1>
                     <p className="imageKeyWords">colour distinguising between shout request statuses for different products</p>
                 </div>
-                <p className="description">
+                {/* <p className="description">
                 Requests is a staff app which receives notifications from the Self-Serve app for item size requests and click and collect orders and staff can then interact with the requests.
-                </p>
+                </p> */}
             </div>
 
+            <p className="description">
+                Frapp is a retail app that originially was created to replace staff radio's to make calls for sizes to be brought to the shop floor. The app allows you to login as either shop floor or store room, create shouts for sizes, then update the shout as it progresses throughout its journey of claimed, sent, cancelled, returned. In subsequent iterations functionality of basket payments, ship to store, returns, loyalty schemes were introduced.
+            </p>
+
             <div className="frappContainer">
+                
                 <div className="topText">
                     <h1>FRAPP</h1>
                     <h1>2019-22</h1>
@@ -107,10 +112,11 @@ export default function AppDesignsPage() {
                     <h1></h1>
                     <p className="imageKeyWords">delivery / shipping flow</p>
                 </div>
-                <p className="description">
-                    Frapp is the retail app that originially was created to replace staff radio's to make calls for sizes to be brought to the shop floor. The app allows you to login as either shop floor or store room, create shouts for sizes, then update the shout as it progresses throughout its journey of claimed, sent, cancelled, returned. In subsequent iterations functionality of basket payments, ship to store, returns, loyalty schemes were introduced.
-                </p>
             </div>
+
+            <p className="description">
+                Sevenstore app for in-house use by staff to offer some of the functionalities of Frapp but allowed us to refine and tailor to Seven's particular shopping journey, in the Sevenstore branding.
+            </p>
 
             <div className="sevenContainer">
                 <div className="topText">
@@ -143,9 +149,6 @@ export default function AppDesignsPage() {
                     <h1></h1>
                     <p className="imageKeyWords">shipping / delivery</p>
                 </div>
-                <p className="description">
-                    Sevenstore app for in-house use by staff to offer some of the functionalities of Frapp but allowed us to refine and tailor to Seven, in the Sevenstore branding.
-                </p>
             </div>
         </>
     );

@@ -13,6 +13,9 @@ import '../../css/text-shared.css'
 export default function IllustrationsPage() {
     return (
         <>
+        <p className="description">
+            experimental quick sketches of people i see around me, focusing on looseness of drawings and capturing the essence of a scene's emotions
+        </p>
         <div className="whiteContainer">
                 <div className="topText">
                     <h1>LIVE SKETCH</h1>
