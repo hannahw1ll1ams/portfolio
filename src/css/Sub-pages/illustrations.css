@@ -2,7 +2,7 @@
     background-color: white;
 }
 .liveSketchSingleImage {
-    width: 33%;
+    width: 40%;
 }
 .pictureSketch {
     width: 25%;
@@ -14,6 +14,7 @@
 .imageContainer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .procrastination {
@@ -39,25 +40,36 @@
 }
 
 @media screen and (max-width: 800px) {
-    .procrastination {
-        padding: 0px 30px;
-    }
     .liveSketchSingleImage {
-        width: 50%;
+        width: 60%;
     }
     .pictureSketch {
         width: 38%;
     }
+    .procrastination {
+        width: 58%;
+        padding: 40px 30px;
+    }
+    .portugalContainer{
+        flex-wrap: wrap;
+    }
+    .twoRunnersContainer {
+        width: 100%;
+    }
+    .inesContainer {
+        width: 100%;
+    }
   }
 
 @media screen and (max-width: 600px) {
-    .procrastination {
-        padding: 0px 10px;
-    }
     .liveSketchSingleImage {
-        width: 50%;
+        width: 70%;
     }
     .pictureSketch {
         width: 50%;
+    }
+    .procrastination {
+        width: 58%;
+        padding: 40px 30px;
     }
   }

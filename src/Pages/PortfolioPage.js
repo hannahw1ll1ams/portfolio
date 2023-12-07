@@ -5,14 +5,13 @@ import '../css/portfolioPage.css'
 
 //images
 import workers from '../images/illustrations/seaViewWorkers.jpg'
-import appLogos from '../images/appDesign/app-logos-03.png'
+import appLogosTrans2 from '../images/appDesign/app-logo-trans-04.png'
 import salsaGraphic from '../images/infographic/salsaAsPoliticalSpeech.png'
 import universalBasket from '../images/infographic/omnichannel-06.png'
 import eventPosters from '../images/rowing/event-posters-together-01.png'
 import ldsTshirtLogos from '../images/rowing/lds-tshirts-together-02.png'
 import strategicPlan from '../images/rowing/strategicPlan3.PNG'
 
-import pp from '../images/profilePicture.png'
 import Footer from '../Components/Footer';
 
 
@@ -41,7 +40,7 @@ export default function PortfolioPage() {
 
           <div class="img__wrap app-designs">
             <Link to='/portfolio/appdesign'>
-              <img className="responsive img__img padding" src= {appLogos} alt='appLogos'/>
+              <img className="responsive img__img padding" src= {appLogosTrans2} alt='appLogos'/>
               <div class="img__description_layer">
                 <p class="img__description">APP DESIGN</p>
               </div>

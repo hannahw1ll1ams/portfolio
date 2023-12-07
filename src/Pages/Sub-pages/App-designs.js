@@ -3,6 +3,8 @@ import '../../css/Sub-pages/app-design.css'
 import '../../css/text-shared.css'
 import requestsLogo from '../../images/appDesign/requestsAppLogo.png'
 import selfServeLogo from '../../images/appDesign/selfServeLogo.png'
+import requestsLogoRounded from '../../images/appDesign/requestsRounded.png'
+import selfServeLogoRounded from '../../images/appDesign/selfServeRounded.png'
 
 import selfServeApp from '../../images/appDesign/self-serve.png'
 import footwearApp from '../../images/appDesign/footwear.png'
@@ -28,8 +30,8 @@ export default function AppDesignsPage() {
                         <h1>2023</h1>
                     </div>
                     <div className="logoImageContainer">
-                        <img className="appLogoDesign" src= {selfServeLogo} alt='requselfServeLogoestsLogo'/>
-                        <img className="appLogoDesign" src= {requestsLogo} alt='requestsLogo'/>
+                        <img className="appLogoDesign" src= {requestsLogoRounded} alt='requestsLogo'/>
+                        <img className="appLogoDesign" src= {selfServeLogoRounded} alt='selfServeLogo'/>
                     </div>
                     <div className="bottomText">
                         <h1></h1>

@@ -40,7 +40,7 @@ export default function Header({ isHamburgerOpen, toggleState }) {
             <li><p>/</p></li>
             <Link to='/contact'><li><button className={`link ${isPageSelected[1] ? "selected" : ""}`}>CONTACT</button></li></Link>
             </ul> 
-            <p className="title">developer / designer</p>
+            <p className="title">design and developer</p>
           </div> 
 			</nav> 
 		</header> 
