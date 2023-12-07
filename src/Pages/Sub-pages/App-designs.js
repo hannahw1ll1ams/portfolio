@@ -24,9 +24,6 @@ import frapp3 from '../../images/appDesign/frapp-10.png'
 export default function AppDesignsPage() {
     return (
         <>
-             {/* <p className="description">
-                Two logos for two apps. The left is the customer facing Self-Serve, right is the store staff's Requests app.
-            </p> */}
             <div className="appDesignContainer">
                     <div className="topText">
                         <h1>APP DESIGN</h1>
@@ -38,7 +35,7 @@ export default function AppDesignsPage() {
                     </div>
                     <div className="bottomText">
                         <h1></h1>
-                        <p className="imageKeyWords">Two logos for two apps. The left is the customer facing Self-Serve, right is the store staff's Requests app.</p>
+                        <p className="imageKeyWords">two logos for two apps. the left is the customer facing Self-Serve, right is the store staff's Requests app.</p>
                     </div>
             </div>
 
@@ -50,7 +47,7 @@ export default function AppDesignsPage() {
                 <img className="omnichannelWidth" src= {selfServeApp} alt='omnichannelGraphic'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">I worked with marketing to keep app in line with footasylum's new branding, mainly the green pixel.</p>
+                    <p className="imageKeyWords">worked with marketing to keep app in line with footasylum's new branding, mainly the green pixel.</p>
                 </div>
             </div>
 
@@ -90,25 +87,21 @@ export default function AppDesignsPage() {
                     <h1>2019-22</h1>
                 </div>
                 <img className="omnichannelWidth" src= {frapp2} alt='frapp1'/>
-                <div className="bottomText">
+                <div className="inbetweenBottomText">
                     <h1></h1>
                     <p className="imageKeyWords">login flow / adding products to baskets</p>
                 </div>
             </div>
 
             <div className="frappContainer">
-                <div className="topText">
-                </div>
                 <img className="omnichannelWidth" src= {frapp1} alt='frapp2'/>
-                <div className="bottomText">
+                <div className="inbetweenBottomText">
                     <h1></h1>
                     <p className="imageKeyWords">checkout flow</p>
                 </div>
             </div>
 
             <div className="frappContainer">
-                <div className="topText">
-                </div>
                 <img className="omnichannelWidth" src= {frapp3} alt='frapp3'/>
                 <div className="bottomText">
                     <h1></h1>
@@ -125,32 +118,26 @@ export default function AppDesignsPage() {
                     <h1>2023</h1>
                 </div>
                 <img className="omnichannelWidth" src= {selfserve3} alt='omnichannelGraphic'/>
-                <div className="bottomText">
+                <div className="inbetweenBottomText">
                     <h1></h1>
                     <p className="imageKeyWords">login / search product</p>
                 </div>
             </div>
             <div className="sevenContainer">
-            <div className="topText">
-                </div>
                 <img className="omnichannelWidth" src= {selfserve4} alt='omnichannelGraphic'/>
-                <div className="bottomText">
+                <div className="inbetweenBottomText">
                     <h1></h1>
                     <p className="imageKeyWords">basket discounts</p>
                 </div>
             </div>
             <div className="sevenContainer">
-            <div className="topText">
-                </div>
                 <img className="omnichannelWidth" src= {selfserve1} alt='omnichannelGraphic'/>
-                <div className="bottomText">
+                <div className="inbetweenBottomText">
                     <h1></h1>
                     <p className="imageKeyWords">checkout flow with emails and terminal selection</p>
                 </div>
             </div>
             <div className="sevenContainer">
-            <div className="topText">
-                </div>
                 <img className="omnichannelWidth" src= {selfserve2} alt='omnichannelGraphic'/>
                 <div className="bottomText">
                     <h1></h1>
