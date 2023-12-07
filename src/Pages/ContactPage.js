@@ -22,7 +22,7 @@ export default function IllustrationsPageContactPage() {
 
             <div className="cv alignment contactText">
                 <a className="mediaLink" href={pdf}>download CV</a>
-                <a target="_blank" className="mediaLink" href="https://medium.com/footasylum-tech/how-i-got-here-hannah-williams-software-engineer-7068c9216722">read more about my journey to design and developer here</a>
+                <a target="_blank" className="mediaLink" href="https://medium.com/footasylum-tech/how-i-got-here-hannah-williams-software-engineer-7068c9216722">read more about my journey to designer and developer here</a>
             </div>
             
         </div>

@@ -35,14 +35,11 @@ export default function AppDesignsPage() {
                     </div>
                     <div className="bottomText">
                         <h1></h1>
-                        <p className="imageKeyWords">vector drawing / app logo design</p>
+                        <p className="imageKeyWords">two logos for two apps. the left is the customer facing Self-Serve, right is the store staff's Requests app.</p>
                     </div>
             </div>
-            <p className="description">
-                Two logos for two apps. The left is the customer facing Self-Serve, right is the store staff's Requests app.
-            </p>
 
-            <div className="omnichannelContainer">
+            <div className="clickCollectContainer">
                 <div className="topText">
                     <h1>CLICK AND COLLECT (SELF-SERVE)</h1>
                     <h1>2023</h1>
@@ -54,7 +51,7 @@ export default function AppDesignsPage() {
                 </div>
             </div>
 
-            <div className="omnichannelContainer">
+            <div className="footwearContainer">
                 <div className="topText">
                     <h1>FOOTWEAR (SELF-SERVE)</h1>
                     <h1>2023</h1>
@@ -62,14 +59,14 @@ export default function AppDesignsPage() {
                 <img className="omnichannelWidth" src= {footwearApp} alt='omnichannelGraphic'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">re-used components between app's to make sure thye all had the same visual language.</p>
+                    <p className="imageKeyWords">re-used components between app's to make sure they all had the same visual language.</p>
                 </div>
                 <p className="description">
                     Self-Serve is a customer facing app offering multiple services including click and collect, fitting room and footwear, where the customer can request different sizes and see in real time the status of their requests as staff interact with them on their requests app. 
                 </p>
             </div>
 
-            <div className="omnichannelContainer">
+            <div className="requestsContainer">
                 <div className="topText">
                     <h1>REQUESTS</h1>
                     <h1>2023</h1>
@@ -77,38 +74,34 @@ export default function AppDesignsPage() {
                 <img className="omnichannelWidth" src= {requestsApp} alt='omnichannelGraphic'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">colour distinguising between shout request status's for different products</p>
+                    <p className="imageKeyWords">colour distinguising between shout request statuses for different products</p>
                 </div>
                 <p className="description">
                 Requests is a staff app which receives notifications from the Self-Serve app for item size requests and click and collect orders and staff can then interact with the requests.
                 </p>
             </div>
 
-            <div className="omnichannelContainer">
+            <div className="frappContainer">
                 <div className="topText">
                     <h1>FRAPP</h1>
                     <h1>2019-22</h1>
                 </div>
                 <img className="omnichannelWidth" src= {frapp2} alt='frapp1'/>
-                <div className="bottomText">
+                <div className="inbetweenBottomText">
                     <h1></h1>
                     <p className="imageKeyWords">login flow / adding products to baskets</p>
                 </div>
             </div>
 
-            <div className="omnichannelContainer">
-                <div className="topText">
-                </div>
+            <div className="frappContainer">
                 <img className="omnichannelWidth" src= {frapp1} alt='frapp2'/>
-                <div className="bottomText">
+                <div className="inbetweenBottomText">
                     <h1></h1>
                     <p className="imageKeyWords">checkout flow</p>
                 </div>
             </div>
 
-            <div className="omnichannelContainer">
-                <div className="topText">
-                </div>
+            <div className="frappContainer">
                 <img className="omnichannelWidth" src= {frapp3} alt='frapp3'/>
                 <div className="bottomText">
                     <h1></h1>
@@ -119,38 +112,32 @@ export default function AppDesignsPage() {
                 </p>
             </div>
 
-            <div className="omnichannelContainer">
+            <div className="sevenContainer">
                 <div className="topText">
                     <h1>SEVENSTORE (IN-HOUSE)</h1>
                     <h1>2023</h1>
                 </div>
                 <img className="omnichannelWidth" src= {selfserve3} alt='omnichannelGraphic'/>
-                <div className="bottomText">
+                <div className="inbetweenBottomText">
                     <h1></h1>
                     <p className="imageKeyWords">login / search product</p>
                 </div>
             </div>
-            <div className="omnichannelContainer">
-            <div className="topText">
-                </div>
+            <div className="sevenContainer">
                 <img className="omnichannelWidth" src= {selfserve4} alt='omnichannelGraphic'/>
-                <div className="bottomText">
+                <div className="inbetweenBottomText">
                     <h1></h1>
                     <p className="imageKeyWords">basket discounts</p>
                 </div>
             </div>
-            <div className="omnichannelContainer">
-            <div className="topText">
-                </div>
+            <div className="sevenContainer">
                 <img className="omnichannelWidth" src= {selfserve1} alt='omnichannelGraphic'/>
-                <div className="bottomText">
+                <div className="inbetweenBottomText">
                     <h1></h1>
                     <p className="imageKeyWords">checkout flow with emails and terminal selection</p>
                 </div>
             </div>
-            <div className="omnichannelContainer">
-            <div className="topText">
-                </div>
+            <div className="sevenContainer">
                 <img className="omnichannelWidth" src= {selfserve2} alt='omnichannelGraphic'/>
                 <div className="bottomText">
                     <h1></h1>

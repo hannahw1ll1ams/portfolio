@@ -7,6 +7,14 @@
     text-align: start;
 }
 
+.inbetweenBottomText {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px 50px 30px;
+    font-size: 10px;
+    font-family: 'Medium';
+}
+
 .bottomText {
     display: flex;
     justify-content: space-between;
@@ -24,7 +32,6 @@
 
 .description {
     background-color: white;
-    /* padding: 50px; */
     padding: 50px 30px 50px 30px;
     font-family: "Regular";
     text-align: start;
