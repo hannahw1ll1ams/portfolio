@@ -8,6 +8,9 @@ import getWell from '../../images/infographic/getWellGraphic.png'
 export default function GraphicsPage() {
     return (
         <>
+        <p className="description">
+            A collection of miscellaneous graphics
+        </p>
         <div className="salsaSpeechContainer">
                 <div className="topText">
                     <h1>SALSA AS POLITICAL SPEECH</h1>
@@ -16,12 +19,9 @@ export default function GraphicsPage() {
                 <img className="salsaImageWidth" src= {infographic} alt='infographic'/>
                 <div className="bottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">data / translation / deconstruction</p>
+                    <p className="imageKeyWords">infographic deconstructing a political speech between Hilary Clinton and Donald Trump and mapping out the power dynamics on the grid based on the language/data each speaker used.</p>
                 </div>
         </div>
-        <p className="description">
-            Infographic deconstructing a political speech between Hilary Clinton and Donald Trump and mapping out the power dynamics on the grid based on the language each speaker used. 
-        </p>
         <div className="keepingToesCrossed">
                 <div className="topText">
                     <h1>KEEPING OUR TOES CROSSED</h1>

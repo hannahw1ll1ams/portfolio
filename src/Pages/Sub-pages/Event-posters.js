@@ -9,7 +9,7 @@ export default function EventPostersPage() {
     return (
         <>
         <p className="description">
-            creating posters and developing a consistent branding for Royal Chester Rowing Club events
+            Created posters and developed a consistent branding for Royal Chester Rowing Club events
         </p>
         <div className="anniversaryBallContainer">
                 <div className="topText">

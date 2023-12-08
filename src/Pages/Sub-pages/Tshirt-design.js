@@ -12,7 +12,7 @@ export default function TshirtDesignPage() {
     return (
         <>
         <p className="description">
-                asked to create a t-shirt design to sell at the royal chester rowing club's home event, that celebrates the club and the river dee.
+                Created a t-shirt design to sell at Royal Chester rowing club's home event, that celebrates the club and the River Dee.
             </p>
         <div class="finalTshirtContainer">
             
