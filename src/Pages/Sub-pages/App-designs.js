@@ -94,7 +94,7 @@ export default function AppDesignsPage() {
                 <img className="omnichannelWidth" src= {frapp2} alt='frapp1'/>
                 <div className="inbetweenBottomText">
                     <h1></h1>
-                    <p className="imageKeyWords">login flow / adding products to baskets</p>
+                    <p className="imageKeyWords">login flow / creating 'shouts' for sizes and adding products to baskets</p>
                 </div>
             </div>
 
