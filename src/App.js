@@ -4,6 +4,7 @@ import './App.css';
 
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import ScrollToTopOnNavigate from './Components/ScrollToTop';
 
 import ContactPage from './Pages/ContactPage';
 // import AboutPage from './Pages/AboutPage';
@@ -44,6 +45,7 @@ function App() {
           <Link to="/contact" onClick={toggleHamburger}><p className='hamburgerItem'>CONTACT</p></Link>
       </div>
       )}
+      <ScrollToTopOnNavigate>
         <div className='appPages'>
         <Routes>
           <Route path="/" exact element={<PortfolioPage />} />
@@ -61,7 +63,7 @@ function App() {
           <Route path="/*" exact element={<ErrorPage />} />
         </Routes>
         </div>
-
+        </ScrollToTopOnNavigate>
       </div>
   );
 }
