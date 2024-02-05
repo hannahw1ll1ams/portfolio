@@ -9,7 +9,7 @@ export default function GraphicsPage() {
     return (
         <>
         <p className="description">
-            A collection of miscellaneous graphics
+            A collection of miscellaneous graphics.
         </p>
         <div className="salsaSpeechContainer">
                 <div className="topText">

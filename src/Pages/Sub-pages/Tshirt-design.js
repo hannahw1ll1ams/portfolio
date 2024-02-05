@@ -23,7 +23,7 @@ export default function TshirtDesignPage() {
                 </div>
                 <img className="ldsResponsive" src= {ldsTogether} alt='ldsTogether'/>               
                 <div className="bottomText tshirtBottomText">
-                    <p className="imageKeyWords">Final t-shirt design - single colour, small front logo is a negative space reverse of the larger back logo</p>
+                    <p className="imageKeyWords">Final t-shirt design - single white colour, the small front logo is a negative space reverse of the larger back logo</p>
                     <h1></h1>
                 </div>
             </div>
@@ -47,7 +47,7 @@ export default function TshirtDesignPage() {
                 </div>
                 <img className="ldsResponsive" src= {tshirt4} alt='anniversaryBall'/>
                 <div className="bottomText tshirtBottomText">
-                    <p className="imageKeyWords">Building on compass idea, adding references on NSEW of iconic places along the river dee e.g. flagpoles, the blue bridge</p>
+                    <p className="imageKeyWords">Building on compass idea, adding references on NSEW of iconic places along the river dee e.g. Flagpoles, the Blue Bridge</p>
                     <h1></h1>
                 </div>
             </div>

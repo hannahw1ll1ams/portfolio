@@ -33,7 +33,7 @@ export default function AppDesignsPage() {
                         <img className="appLogoDesign" src= {requestsLogoRounded} alt='requestsLogo'/>
                     </div>
                     <div className="bottomText">
-                        <p className="imageKeyWords">Two logos for two apps. the left is the customer facing Self-Serve which offers multiple services including click and collect, fitting room and footwear, where the customer can request different sizes and see in real time the status of their requests. right is the logo for store staff's Requests app where they then interact with the customer's shouts.</p>
+                        <p className="imageKeyWords">Two logos for two apps. The left is the customer facing Self-Serve which offers multiple services including Click and Collect, Fitting Room and Footwear, where the customer can request different sizes and see in real time the status of their requests. right is the logo for store staff's Requests app where they then interact with the customer's shouts.</p>
                         <h1></h1>
                     </div>
             </div>
