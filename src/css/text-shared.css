@@ -51,6 +51,9 @@
     .imageKeyWords {
         font-size: 14px;
     }
+    .description {
+        font-size: 14px;
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -61,6 +64,9 @@
         font-size: 10px;
     }
     .imageKeyWords {
+        font-size: 14px;
+    }
+    .description {
         font-size: 14px;
     }
   }

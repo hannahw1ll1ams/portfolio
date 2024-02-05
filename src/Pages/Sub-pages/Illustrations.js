@@ -59,7 +59,7 @@ export default function IllustrationsPage() {
             <div className="inesContainer">
                 <div className="topText">
                      <h1></h1>
-                       <h1>2021</h1>
+                     <h1>2021</h1>
                 </div>
                 <img className="halfSingleImage" src= {ines} alt='ines'/>
                 <div className="bottomText">
