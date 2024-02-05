@@ -18,8 +18,8 @@ export default function EventPostersPage() {
                 </div>
                 <img className="postersTallImageWidth" src= {springBall} alt='anniversaryBall'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords"></p>
+                    <h1></h1>
                 </div>
         </div>
 
@@ -30,8 +30,8 @@ export default function EventPostersPage() {
                 </div>
                 <img className="postersWideImageWidth" src= {anniversaryBall} alt='springBall'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords"></p>
+                    <h1></h1>
                 </div>
         </div>
 

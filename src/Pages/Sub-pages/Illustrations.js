@@ -23,8 +23,8 @@ export default function IllustrationsPage() {
                 </div>
                 <img className="liveSketchSingleImage" src= {workers} alt='workers'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">stormy sea and sky view working from coffee shop</p>
+                    <h1></h1>
                 </div>
         </div>
 
@@ -38,8 +38,8 @@ export default function IllustrationsPage() {
                     <img className="procrastination" src= {procrastinationColour} alt='loprocrastinationColourgo'/>
                 </div>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">20 minute live sketch using procreate</p>
+                    <h1></h1>
                 </div>
         </div>
 
@@ -51,8 +51,8 @@ export default function IllustrationsPage() {
                 </div>
                 <img className="halfSingleImage" src= {runners} alt='runners'/>
                 <div className="bottomText">
-                    <h1></h1>
                      <p className="imageKeyWords">experimenting with styles</p>
+                     <h1></h1>
                 </div>
             </div>
 
@@ -63,8 +63,8 @@ export default function IllustrationsPage() {
                 </div>
                 <img className="halfSingleImage" src= {ines} alt='ines'/>
                 <div className="bottomText">
-                    <h1></h1>
                      <p className="imageKeyWords">developing drawing through layers of pencil sketch, refine, colour, ink</p>
+                     <h1></h1>
                 </div>
             </div>
         </div>
@@ -76,8 +76,8 @@ export default function IllustrationsPage() {
                 </div>
                 <img className="pictureSketch" src= {hugging} alt='hugging'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">picture sketch / focus on capturing essence of characters</p>
+                    <h1></h1>
                 </div>
         </div>
 

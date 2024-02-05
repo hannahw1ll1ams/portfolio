@@ -24,19 +24,21 @@
 }
 
 .imageKeyWords {
-    font-size: 20px;
-    font-family: 'Italic';
+    font-size: 16px;
+    font-family: 'Regular';
     font-weight: 100;
-    text-align: end;
+    text-align: start;
+    color: #717070;
 }
 
 .description {
+    color: #717070;
     background-color: #f6f5f5;
     padding: 50px 30px 50px 30px;
-    font-family: "Italic";
+    font-family: "Regular";
     font-weight: 100;
-    text-align: end;
-    font-size: 20px;
+    text-align: start;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 800px) {
