@@ -167,13 +167,14 @@
 .ldsResponsive {
     width: 80%;
     /* padding: 50px; */
+    align-self: center;
   }
 
   .boxLayout {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
   }
   
   .iteration1 { 
@@ -202,11 +203,20 @@
     width: 90%;
 }
 
+/* .tshirtText {
+  font-size: 16px;
+  font-family: 'Regular';
+  font-weight: 100;
+  text-align: start;
+  color: #717070;
+  padding: 10px;
+} */
+
 .textWidth {
     /* text-align: start; */
-    /* display: flex;
-    justify-content: space-between; */
-    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    /* width: 95%; */
 }
 
 /* Styles for responsive layout - makes a two column-layout instead of four columns */
