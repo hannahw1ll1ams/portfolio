@@ -16,7 +16,6 @@
 .alignment {
     display: flex;
     flex-direction: column;
-    /* height: 400px; */
     text-align: start;
     padding: 20px 20px 20px 20px;
 }
