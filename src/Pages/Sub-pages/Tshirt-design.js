@@ -11,7 +11,7 @@ import '../../css/text-shared.css'
 export default function TshirtDesignPage() {
     return (
         <>
-        <p className="description">
+            <p className="description">
                 Created a t-shirt design to sell at Royal Chester rowing club's home event, that celebrates the club and the River Dee.
             </p>
         <div class="finalTshirtContainer">
