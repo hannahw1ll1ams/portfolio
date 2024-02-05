@@ -23,7 +23,7 @@ export default function TshirtDesignPage() {
                 </div>
                 <img className="ldsResponsive" src= {ldsTogether} alt='ldsTogether'/>               
                 <div className="bottomText tshirtBottomText">
-                    <p className="imageKeyWords">final t-shirt design - single colour, small front logo is a negative space reverse of the larger back logo</p>
+                    <p className="imageKeyWords">Final t-shirt design - single colour, small front logo is a negative space reverse of the larger back logo</p>
                     <h1></h1>
                 </div>
             </div>
@@ -35,7 +35,7 @@ export default function TshirtDesignPage() {
                 </div>
                 <img className="ldsResponsive" src= {tshirt1} alt='anniversaryBall'/>
                 <div className="bottomText tshirtBottomText">
-                    <p className="imageKeyWords">initial iteration - building on concept of the royal’s crest, playing with size of shapes and adding boat in idea of acting like a compass</p>
+                    <p className="imageKeyWords">Initial iteration - building on concept of the royal’s crest, playing with size of shapes and adding boat in idea of acting like a compass</p>
                     <h1></h1>
                 </div>
             </div>
@@ -47,7 +47,7 @@ export default function TshirtDesignPage() {
                 </div>
                 <img className="ldsResponsive" src= {tshirt4} alt='anniversaryBall'/>
                 <div className="bottomText tshirtBottomText">
-                    <p className="imageKeyWords">building on compass idea, adding references on NSEW of iconic places along the river dee e.g. flagpoles, the blue bridge</p>
+                    <p className="imageKeyWords">Building on compass idea, adding references on NSEW of iconic places along the river dee e.g. flagpoles, the blue bridge</p>
                     <h1></h1>
                 </div>
             </div>
@@ -59,7 +59,7 @@ export default function TshirtDesignPage() {
                 </div>
                 <img className="ldsResponsive" src= {tshirt2} alt='anniversaryBall'/>
                 <div className="bottomText tshirtBottomText">
-                    <p className="imageKeyWords">experimenting with making compass location points less explicitly conveyed with icons</p>
+                    <p className="imageKeyWords">Experimenting with making compass location points less explicitly conveyed with icons</p>
                     <h1></h1>
                 </div>
             </div>
@@ -71,7 +71,7 @@ export default function TshirtDesignPage() {
                 </div>
                 <img className="ldsResponsive" src= {tshirt3} alt='anniversaryBall'/>
                 <div className="bottomText tshirtBottomText">
-                    <p className="imageKeyWords">playing with colour</p>
+                    <p className="imageKeyWords">Playing with colour</p>
                     <h1></h1>
                 </div>
             </div>
