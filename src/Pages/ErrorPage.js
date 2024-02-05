@@ -4,8 +4,7 @@ import '../css/errorPage.css'
 export default function ErrorPage() {
     return (
         <div className="errorContainer">
-            <p>Error:</p>
-            <p> INVALID URL</p>
+            <p>Error: Invalid URL</p>
         </div>
     );
 }
