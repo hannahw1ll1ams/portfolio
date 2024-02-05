@@ -23,7 +23,7 @@ export default function IllustrationsPage() {
                 </div>
                 <img className="liveSketchSingleImage" src= {workers} alt='workers'/>
                 <div className="bottomText">
-                    <p className="imageKeyWords">stormy sea and sky view working from coffee shop</p>
+                    <p className="imageKeyWords">Stormy sea and sky view working from coffee shop</p>
                     <h1></h1>
                 </div>
         </div>
@@ -51,7 +51,7 @@ export default function IllustrationsPage() {
                 </div>
                 <img className="halfSingleImage" src= {runners} alt='runners'/>
                 <div className="bottomText">
-                     <p className="imageKeyWords">experimenting with styles</p>
+                     <p className="imageKeyWords">Experimenting with styles</p>
                      <h1></h1>
                 </div>
             </div>
@@ -63,7 +63,7 @@ export default function IllustrationsPage() {
                 </div>
                 <img className="halfSingleImage" src= {ines} alt='ines'/>
                 <div className="bottomText">
-                     <p className="imageKeyWords">developing drawing through layers of pencil sketch, refine, colour, ink</p>
+                     <p className="imageKeyWords">Developing drawing through layers of pencil sketch, refine, colour, ink</p>
                      <h1></h1>
                 </div>
             </div>
@@ -76,7 +76,7 @@ export default function IllustrationsPage() {
                 </div>
                 <img className="pictureSketch" src= {hugging} alt='hugging'/>
                 <div className="bottomText">
-                    <p className="imageKeyWords">picture sketch / focus on capturing essence of characters</p>
+                    <p className="imageKeyWords">Picture sketch / focus on capturing essence of characters</p>
                     <h1></h1>
                 </div>
         </div>
