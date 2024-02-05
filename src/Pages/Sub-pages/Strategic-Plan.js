@@ -11,7 +11,7 @@ export default function StrategicPlanPage() {
     return (
        <>
         <p className="description">
-            Collaborating with a rowing club on a illustration to communicate their 5 year strategic plan to club members. My concept is the club is the boat, starting at one end of the river at '2022', and it moves along the Royal Chester river towards 2027 with the help of the plan's pillars as boat oar's, which also represent the club members who are the one's who will implement the plan. 
+            Collaborating with a rowing club on a illustration to communicate their 5 year strategic plan to club members. My concept is the club is the boat, starting at one end of the River Dee in 2022, and progressing towards 2027. The guiding principles of the plan are represented by the boat's oars, representing the club members' role in enacting the plan.
         </p>
         <div className="finalVersionContainer">
                 <div className="topText">
