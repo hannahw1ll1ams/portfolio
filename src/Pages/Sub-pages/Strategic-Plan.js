@@ -20,8 +20,8 @@ export default function StrategicPlanPage() {
                 </div>
                 <img className="strategicTallImageWidth" src= {finalVersion} alt='finalVersion'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">final iteration / communication / clean / procreate / vectors</p>
+                    <h1></h1>
                 </div>
         </div>
 
@@ -32,8 +32,8 @@ export default function StrategicPlanPage() {
                 </div>
                 <img className="strategicTallImageWidth" src= {version1} alt='version1'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">hand drawn style</p>
+                    <h1></h1>
                 </div>
         </div>
 
@@ -44,8 +44,8 @@ export default function StrategicPlanPage() {
                 </div>
                 <img className="strategicTallImageWidth" src= {version2} alt='version2'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">playing with perspective</p>
+                    <h1></h1>
                 </div>
         </div>
 
@@ -56,8 +56,8 @@ export default function StrategicPlanPage() {
                 </div>
                 <img className="strategicWideImageWidth" src= {planPillars} alt='version1'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">member's values / trying to include the diversity of the club</p>
+                    <h1></h1>
                 </div>
         </div>
        </>

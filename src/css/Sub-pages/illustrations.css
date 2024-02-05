@@ -22,21 +22,28 @@
     padding: 0px 40px;
 }
 
+
 .portugalContainer{
     display: flex;
-    justify-content: center;
 }
 .twoRunnersContainer {
     background-color: #FFE4E5;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .inesContainer {
     background-color: #CDABAB;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .halfSingleImage {
     width: 58%;
+    align-self: center;
 }
 
 @media screen and (max-width: 800px) {

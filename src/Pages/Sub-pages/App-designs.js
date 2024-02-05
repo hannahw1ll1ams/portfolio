@@ -1,8 +1,6 @@
 import React from "react";
 import '../../css/Sub-pages/app-design.css'
 import '../../css/text-shared.css'
-import requestsLogo from '../../images/appDesign/requestsAppLogo.png'
-import selfServeLogo from '../../images/appDesign/selfServeLogo.png'
 import requestsLogoRounded from '../../images/appDesign/requestsRounded.png'
 import selfServeLogoRounded from '../../images/appDesign/selfServeRounded.png'
 
@@ -18,8 +16,6 @@ import selfserve4 from '../../images/appDesign/otherApps-07.png'
 import frapp1 from '../../images/appDesign/frapp-08.png'
 import frapp2 from '../../images/appDesign/frapp-09.png'
 import frapp3 from '../../images/appDesign/frapp-10.png'
-
-
 
 export default function AppDesignsPage() {
     return (
@@ -37,8 +33,8 @@ export default function AppDesignsPage() {
                         <img className="appLogoDesign" src= {requestsLogoRounded} alt='requestsLogo'/>
                     </div>
                     <div className="bottomText">
-                        <h1></h1>
                         <p className="imageKeyWords">two logos for two apps. the left is the customer facing Self-Serve which offers multiple services including click and collect, fitting room and footwear, where the customer can request different sizes and see in real time the status of their requests. right is the logo for store staff's Requests app where they then interact with the customer's shouts.</p>
+                        <h1></h1>
                     </div>
             </div>
 
@@ -49,8 +45,8 @@ export default function AppDesignsPage() {
                 </div>
                 <img className="omnichannelWidth" src= {selfServeApp} alt='omnichannelGraphic'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">worked with marketing to keep app in line with footasylum's new branding, mainly the green pixel.</p>
+                    <h1></h1>
                 </div>
             </div>
 
@@ -61,8 +57,8 @@ export default function AppDesignsPage() {
                 </div>
                 <img className="omnichannelWidth" src= {footwearApp} alt='omnichannelGraphic'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">re-used components between app's to make sure they all had the same visual language.</p>
+                    <h1></h1>
                 </div>
             </div>
 
@@ -73,12 +69,9 @@ export default function AppDesignsPage() {
                 </div>
                 <img className="omnichannelWidth" src= {requestsApp} alt='omnichannelGraphic'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">colour distinguising between shout request statuses for different products</p>
+                    <h1></h1>
                 </div>
-                {/* <p className="description">
-                Requests is a staff app which receives notifications from the Self-Serve app for item size requests and click and collect orders and staff can then interact with the requests.
-                </p> */}
             </div>
 
             <p className="description">
@@ -93,24 +86,24 @@ export default function AppDesignsPage() {
                 </div>
                 <img className="omnichannelWidth" src= {frapp2} alt='frapp1'/>
                 <div className="inbetweenBottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">login flow / creating 'shouts' for sizes and adding products to baskets</p>
+                    <h1></h1>
                 </div>
             </div>
 
             <div className="frappContainer">
                 <img className="omnichannelWidth" src= {frapp1} alt='frapp2'/>
                 <div className="inbetweenBottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">checkout flow</p>
+                    <h1></h1>
                 </div>
             </div>
 
             <div className="frappContainer">
                 <img className="omnichannelWidth" src= {frapp3} alt='frapp3'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">delivery / shipping flow</p>
+                    <h1></h1>
                 </div>
             </div>
 
@@ -125,29 +118,29 @@ export default function AppDesignsPage() {
                 </div>
                 <img className="omnichannelWidth" src= {selfserve3} alt='omnichannelGraphic'/>
                 <div className="inbetweenBottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">login / search product</p>
+                    <h1></h1>
                 </div>
             </div>
             <div className="sevenContainer">
                 <img className="omnichannelWidth" src= {selfserve4} alt='omnichannelGraphic'/>
                 <div className="inbetweenBottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">basket discounts</p>
+                    <h1></h1>
                 </div>
             </div>
             <div className="sevenContainer">
                 <img className="omnichannelWidth" src= {selfserve1} alt='omnichannelGraphic'/>
                 <div className="inbetweenBottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">checkout flow with emails and terminal selection</p>
+                    <h1></h1>
                 </div>
             </div>
             <div className="sevenContainer">
                 <img className="omnichannelWidth" src= {selfserve2} alt='omnichannelGraphic'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">shipping / delivery</p>
+                    <h1></h1>
                 </div>
             </div>
         </>

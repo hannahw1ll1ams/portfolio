@@ -17,8 +17,8 @@ export default function OmnichannelInfographicPage() {
                 </div>
                 <img className="omnichannelWidth" src= {omnichannelGraphic} alt='omnichannelGraphic'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">vector drawing / collaboration</p>
+                    <h1></h1>
                 </div>
         </div>
         </>

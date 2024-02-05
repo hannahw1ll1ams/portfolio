@@ -18,8 +18,8 @@ export default function GraphicsPage() {
                 </div>
                 <img className="salsaImageWidth" src= {infographic} alt='infographic'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">infographic deconstructing a political speech between Hilary Clinton and Donald Trump and mapping out the power dynamics on the grid based on the language/data each speaker used.</p>
+                    <h1></h1>
                 </div>
         </div>
         <div className="keepingToesCrossed">
@@ -29,8 +29,8 @@ export default function GraphicsPage() {
                 </div>
                 <img className="toesImageWidth" src= {getWell} alt='getWell'/>
                 <div className="bottomText">
-                    <h1></h1>
                     <p className="imageKeyWords">card design / get well</p>
+                    <h1></h1>
                 </div>
         </div>
         </>
