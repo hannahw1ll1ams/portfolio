@@ -14,7 +14,7 @@ export default function IllustrationsPage() {
     return (
         <>
         <p className="description">
-            Experimental quick sketches of people i see around me, focusing on looseness of drawings and trying to relate to the scene.
+            Experimental quick sketches of people I see around me, focusing on looseness of drawings and trying to relate to the scene.
         </p>
         <div className="whiteContainer">
                 <div className="topText">
